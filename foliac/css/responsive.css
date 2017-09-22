@@ -1,0 +1,102 @@
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+	
+	
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	
+	.slide_text h2 {
+		font-size: 35px;
+	}
+	.slide_text h3 {
+		font-size: 25px;
+	}
+	.promo_area .promo_filter ul li {
+		font-size: 14px;
+		padding: 9px 8px;
+	}
+}
+
+@media only screen and (max-width: 767px){
+	
+	.navbar-brand  img {
+		height: 42px;
+	}
+	.navbar-brand {
+		padding: 0px;
+	}
+	.navbar-header{
+		padding: 10px;
+	}
+	#collapse_menu ul {
+		background: #3C4955 none repeat scroll 0 0;
+		float: right;
+		margin: 0;
+		padding: 0;
+		text-align: left;
+		width: 204px;
+	}
+	#collapse_menu ul li a{
+		padding: 10px;
+	}
+	#collapse_menu ul li a {
+		border-bottom: 1px solid;
+	}
+	#collapse_menu ul li::after{
+		display: none;
+		padding: 0px;
+	}
+	.welcome_slide_area .slide_text {
+		padding: 150px 0;
+	}
+	.slide_text h2 {
+		font-size: 27px;
+	}
+	.slide_text h3 {
+		font-size: 20px;
+	}
+	.promo_area .promo_filter ul li {
+		margin-bottom: 3px;
+		display: block;
+	}
+	.promo_list {
+		height: 255px;
+		margin-bottom: 20px;
+		margin-left: 20px;
+		width: 100%;
+		float: none;
+	}
+	.promo_area {
+		padding-top: 53px;
+	}
+	.footer_area ul{
+		text-align: center;
+	}
+	.footer_area p{
+		text-align: center;
+
+	}
+	.is-sticky .navbar_wrapper {
+	  min-height: 70px;
+	}
+	.is-sticky .navbar-brand img {
+	  height: 52px;
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px){
+	.promo_area .promo_filter ul li {
+		display: inline-block;
+		margin-bottom: 5px;
+		text-align: center;
+		padding: 5px 15px;
+	}
+	.promo_list {
+		float: left;
+		height: 185px;
+		width: 45%;
+	}
+	.about_area a{
+		color:#48BF72;
+		border-color: #48BF72;
+	}
+}
