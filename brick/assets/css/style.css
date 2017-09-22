@@ -1,0 +1,951 @@
+/*--- Google fonts ---*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Source+Sans+Pro:400,700');
+
+/*--- Base CSS ---*/
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #999;
+    overflow-x: hidden;
+    position: relative;
+}
+html,body,.welcome-area {
+    height: 100%;
+}
+a:focus { outline: 0 !important }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+}
+a:hover, a:focus { text-decoration: none }
+p{
+    margin: 0px 0px 10px;
+}
+.sec-padding{
+    padding: 70px 0px;
+}
+.padding-left{
+    padding-left: 140px;
+}
+
+
+
+
+/*--- Header CSS ---*/
+.header-area{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+}
+    /*--- Header top CSS ---*/
+.menu-top-area {
+    background-color: #333333;
+    color: #999999;
+    height: 100px;
+}
+.menu-top-area a{
+    color: #999;
+}
+.logo {
+    background-color: #ffc22b;
+    height: 99px;
+    text-align: center;
+    width: 100px;
+}
+.logo a {
+    display: block;
+    line-height: 93px;
+}
+.top-info {
+    padding-left: 58px;
+    position: relative;
+    margin-left: 40px;
+    padding-top: 10px;
+}
+.top-info .top-info-icon {
+    border: 1px solid;
+    border-radius: 50%;
+    display: block;
+    font-size: 24px;
+    height: 56px;
+    left: -9px;
+    line-height: 53px;
+    position: absolute;
+    text-align: center;
+    top: 21px;
+    width: 56px;
+}
+
+.top-info h4 span{
+    margin-top: 6px;
+}
+.top-info a, .top-info h4 {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+.top-info a span, .top-info h4 span {
+    display: block;
+    font-size: 10px;
+    text-transform: none;
+}
+
+.top-s-info {
+    padding: 35px 20px;
+}
+.top-s-info a {
+    font-size: 12px;
+    padding: 8px;
+    text-transform: uppercase;
+}
+
+.top-s-info {
+    padding: 35px 40px;
+}
+.top-s-info a {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 6px 10px;
+    text-transform: uppercase;
+}
+.top-s-info a.lang {
+    border: 1px solid #999;
+    padding: 7px 14px;
+}
+.top-s-info a.cart {
+    background: #ffc22b none repeat scroll 0 0;
+    color: #000;
+    padding: 8px 13px;
+    margin-right: -4px;
+    margin-left: 25px;
+}
+.top-s-info a.cart-value {
+    background: #D9AE2B none repeat scroll 0 0;
+    color: #000;
+    padding: 8px 14px;
+    margin-right: 15px;
+}
+
+
+
+
+
+/*--- Main menu CSS ---*/
+.main-menu.navbar-default {
+    background: #d0d0d0 none repeat scroll 0 0;
+    border:0px solid #d0d0d0;
+    border-radius: 0;
+}
+.main-menu.navbar-default.fixed {
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    padding: 0px 89px;
+    color: #fff;
+    overflow: hidden;
+}
+.fixed .navbar-brand a {
+    border: 1px solid #000;
+    color: #000;
+    display: block;
+    margin-top: -2px;
+    padding: 8px 16px;
+    text-transform: uppercase;
+}
+
+.main-menu.navbar-default.fixed ul.nav li a{
+    background-color: transparent;
+}
+.navbar-brand{
+    display: none;
+}
+.main-menu.navbar-default.fixed .navbar-brand{
+    display: block;
+}
+
+.main-menu.navbar-default.fixed #brick-menu {
+    float: right;
+    margin-top: 5px;
+}
+.main-menu.navbar-default.fixed ul.nav li:first-child a {
+    padding-left: 15px;
+}
+
+.main-menu ul.nav li{
+    transition: .4s;
+}
+.main-menu.navbar-default ul.nav li a {
+    background-color: transparent;
+    color: #777;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: .4s;
+    padding: 15px 20px;
+}
+
+.fixed #brick-menu ul.nav li a {
+    padding: 20px;
+}
+
+.main-menu.navbar-default ul.nav li:first-child a{
+    padding-left: 0px;
+} 
+.main-menu ul.nav li:hover a, .main-menu ul.nav li.active a {
+    color: #333;
+}
+.main-menu.navbar-default .navbar-nav > .active > a,
+.main-menu.navbar-default .navbar-nav > .active > a:hover{
+    background-color: transparent;
+    transition: .4s;
+}
+.main-menu.navbar-default ul.nav li:after{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 0%;
+    height: 2px;
+    content: "";
+    background: #FFC22B;
+    transition: .4s;
+    opacity: 0;
+    visibility: hidden;
+}
+.main-menu.navbar-default ul.nav li:hover:after,
+.main-menu.navbar-default ul.nav li.active:after{
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+}
+
+
+
+
+
+
+/*--- Welcome area CSS ---*/
+.welcome-area{
+    position: relative;
+    background: #B5B5B5;
+    background-image: url(../img/port05.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+.welcome-area:after{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    content: "";
+    background-color: rgba(0,0,0, .6);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.welcome-slide {
+    text-align: center;
+    padding: 270px 0px;
+}
+
+.welcome-text {
+    background: #4D4D4D none repeat scroll 0 0;
+    padding: 30px 36px;
+    width: 100%;
+    position: relative;  
+    color: #fff;
+}
+.welcome-text:after{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color: #FFCC33;
+}
+.welcome-text h2{
+    font-size: 30px;
+    font-weight: 400;
+    color: #FFC22B;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+.welcome-text h2 strong{
+    display: block;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.welcome-area .owl-nav div {
+    background: #5A5A5A none repeat scroll 0 0;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    height: 40px;
+    left: 50px;
+    line-height: 40px;
+    position: absolute;
+    text-align: center;
+    top: 55%;
+    width: 40px;
+    transition: .4s;
+}
+.welcome-area .owl-nav div.owl-next {
+    left: auto;
+    right: 50px;
+}
+.welcome-area .owl-nav div:hover{
+    background-color: #FFC22B;
+}
+.welcome-area.blog .owl-nav{
+    display: none;
+}
+
+
+/*--- Smart area CSS ---*/
+.smart-area{
+    background-color: #D5D4D4;
+    color: #333333;
+}
+.smart-area h2{
+    color: #333333;
+    font-size: 44px;
+    margin-bottom: 10px;
+}
+.smart-area P{
+    margin-bottom: 0px;
+}
+
+
+/*--- Blog CSS ---*/
+.single-blog .s-img {
+    height: 200px;
+    width: 100%;
+    position: relative;
+    transition: .4s;
+}
+.single-blog:hover .s-img{
+    opacity: .75;
+}
+.single-blog .s-img img {
+    width: 100%;
+    height: 100%
+}
+.single-blog h3 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 15px;
+    line-height: 24px;
+}
+.single-blog .s-img:after{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color: #FFCC33;
+}
+.single-blog h3 span {
+    color: #ffcc33;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+}
+.single-blog p {
+    color: #797979;
+}
+.read-more-btn {
+    background: #dddddd none repeat scroll 0 0;
+    color: #ffcc33;
+    display: block;
+    overflow: hidden;
+    padding: 4px 20px;
+    position: relative;
+    text-transform: uppercase;
+    width: 100%;
+    z-index: 1;
+    font-weight: 700;
+    transition: .4s;
+    margin-top: 20px;
+}
+.read-more-btn:after {
+    background: #333 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: -52px;
+    position: absolute;
+    top: 0;
+    transform: skewX(-40deg);
+    width: 50%;
+    z-index: -1;
+    transition:.4s;
+}
+.read-more-btn:hover:after{
+    transform: skewX(40deg);
+    background-color: #FFCC33;
+}
+.read-more-btn:hover{
+    color: #333;
+}
+
+
+
+/*--- Why area CSS ---*/
+.why-area.sec-padding {
+    background-color: #b5b5b5;
+    color: #333;
+    padding-bottom: 40px;
+    position: relative;
+    z-index: 1;
+}
+.single-why {
+    padding-bottom: 17px;
+    padding-right: 38px;
+    padding-top: 17px;
+}
+.single-why h3 i {
+    padding-right: 10px;
+}
+.why-area::before {
+    background: #FFCC33 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    padding-right: 84px;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    z-index: -1;
+}
+.why-area:after {
+    background: url(../img/why-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    content: "";
+    height: 100%;
+    right: 0;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    z-index: -1;
+}
+.why-choose-wrapper h1{
+    margin-bottom: 4px;
+}
+
+
+
+
+/*--- Portfolio CSS ---*/
+.port-nav {
+    background: #333333 none repeat scroll 0 0;
+    text-align: center;
+}
+.port-nav ul li {
+    color: #cccccc;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    padding: 10px 16px;
+    position: relative;
+    text-transform: capitalize;
+    transition: all 0.4s ease 0s;
+}
+.port-nav ul li i {
+    padding-right: 6px;
+}
+
+
+.port-nav ul li ul {
+    background: #fff none repeat scroll 0 0;
+    color: #666666;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 300%;
+    transition: all 0.4s ease 0s;
+    visibility: hidden;
+    z-index: 9;
+}
+.port-nav ul li ul li {
+    color: #666666;
+    display: block;
+    font-weight: 400;
+    padding: 2px 6.5px;
+}
+.portfolio-area {
+    background: #666666 none repeat scroll 0 0;
+}
+.port-nav ul li:hover, .port-nav ul li.active {
+    background-color: #ffcc33;
+    color: #333333;
+}
+.port-nav ul li:hover ul {
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+}
+
+.portfolio-wrapper{
+    overflow: hidden;
+    margin-left: -.5%;
+    margin-right: -.5%;
+}
+.s-portfolio {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    height: 250px;
+    margin: 5px 0.5%;
+    width: 19%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.s-portfolio:after{
+    position: absolute;
+    left: 0px;
+    top: -1000px;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,204, 52,  .3);
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+    z-index: -1;
+    content: "";
+}
+.s-portfolio:hover:after{
+    top: 0px;
+    visibility: visible;
+    opacity: 1;
+
+}
+.s-portfolio.demo-1{
+    background-image: url(../img/port010.jpg);
+}
+.s-portfolio.demo-2{
+    background-image: url(../img/port01.jpg);
+}
+.s-portfolio.demo-3{
+    background-image: url(../img/port02.jpg);
+}
+.s-portfolio.demo-4{
+    background-image: url(../img/port03.jpg);
+}
+.s-portfolio.demo-5{
+    background-image: url(../img/port5.jpg);
+}
+.s-portfolio.demo-6{
+    background-image: url(../img/port08.jpg);
+}
+.s-portfolio.demo-7{
+    background-image: url(../img/port06.jpg);
+}
+.s-portfolio.demo-8{
+    background-image: url(../img/port07.jpg);
+}
+
+.s-portfolio.demo-9{
+    background-image: url(../img/port08.jpg);
+}
+
+.s-portfolio.demo-10{
+    background-image: url(../img/port09.jpg);
+}
+
+
+/*--- Call to action CSS ---*/
+.cta-area{
+    background-color: #FFCC33;
+}
+.cta-area h3{
+    color: #474747;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+
+
+/*--- Brand logo CSS ---*/
+.logo-area{
+    background: #CCCCCC;
+    padding: 40px 50px;
+}
+.carousel-wrapper{
+    padding: 0px 50px;
+}
+.s-carousel{
+    width: 120px;
+    text-align: center;
+}
+
+.s-carousel img{
+    width: 100%;
+    height: 100%;
+     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    opacity: .4s;
+}
+.s-carousel:hover img{
+     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+
+
+/*--- Footer CSS ---*/
+    /*--- Footer top CSS ---*/
+.footer-top-area {
+    background: #333333 none repeat scroll 0 0;
+    padding: 40px 0px;
+}
+.footer-area .row{
+    margin-top: 7px;
+}
+.footer-top-area .footer-logo {
+    display: block;
+    margin-bottom: 20px;
+}
+.footer-top-area p {
+    font-size: 13px;
+}
+.footer-top-area h5 {
+    color: #999999;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer-top-area ul li {
+    color: #ffcc33;
+    font-size: 12px;
+    text-transform: capitalize;
+    transition: .4s;
+    cursor: pointer;
+}
+.footer-top-area ul li:hover{
+    color: #fff;
+}
+
+
+
+
+     /*--- Footer bottom CSS ---*/
+.footer-area {
+    background: #666666 none repeat scroll 0 0;
+    color: #999999;
+    font-size: 13px;
+    padding: 15px 0;
+}
+.footer-area ul li {
+    display: inline-block;
+}
+.footer-area ul li a {
+    color: #999;
+    display: block;
+    padding: 0 12px;
+    transition: .4s;
+}
+.footer-area ul li:hover a{
+    color: #FFC22B;
+}
+
+
+
+
+/*------------------ Blog page CSS ------------------*/
+
+
+
+ /*--- Welcome blog CSS ---*/
+.welcome-area.blog {
+    background: #e5e5e5 none repeat scroll 0 0;
+    height: 400px;
+    background-image: url(../img/bg-blog.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+.welcome-area.blog:before{
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 194, 43, .15);
+    z-index: -1;
+}
+.welcome-blog-text {
+    color: #333333;
+    padding: 215px 0px 0px;
+}
+.welcome-blog-text h1 {
+    color: #333;
+    font-size: 48px;
+}
+.welcome-area.blog::after {
+    display: none;
+}
+
+
+ /*--- Breadcrumb CSS ---*/
+.breadcrumb-area {
+    background: #999999 none repeat scroll 0 0;
+    padding: 10px 0;
+}
+.breadcrumb-area ul li {
+    display: inline-block;
+}
+.breadcrumb-area ul li a {
+    color: #fff;
+    display: block;
+    text-transform: capitalize;
+}
+.breadcrumb-area ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.breadcrumb-area ul li.active a {
+    color: #ffc22b;
+}
+
+
+
+ /*--- Single blog CSS ---*/
+.single-blog-post{
+    margin-bottom: 60px;
+    position: relative;
+}
+.single-blog-post:last-child{
+    margin-bottom: 0px;
+}
+.single-blog-post .s-img {
+    height: 400px;
+    width: 100%;
+    transition: .4s;
+}
+.single-blog-post .s-img img {
+    height: 100%;
+    width: 100%;
+}
+.single-blog-post:hover .s-img{
+    opacity: .7;
+}
+.single-blog-post h1 {
+    border-bottom: 2px solid #ffc22b;
+    margin-top: 10px;
+    padding-bottom: 6px;
+    color: #333;
+}
+.single-blog-post span {
+    color: #333333;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 4px 10px;
+    position: relative;
+}
+.single-blog-post span a {
+    color: #ffc22b;
+}
+.single-blog-post > span::after {
+    content: "|";
+    margin-right: -4px;
+    position: absolute;
+    right: -6px;
+    top: 0;
+}
+.single-blog-post > span:last-of-type::after {
+    display: none;
+}
+
+.read-more-blog-btn {
+    background: #333333 none repeat scroll 0 0;
+    color: #ffc22b;
+    display: inline-block;
+    font-weight: 700;
+    margin-top: 12px;
+    padding: 7px 20px;
+    text-transform: uppercase;
+    transition: .4s;
+}
+.read-more-blog-btn:hover{
+    background: #ffc22b none repeat scroll 0 0;
+    color: #333;
+}
+.post-date {
+    background: #ffc22b none repeat scroll 0 0;
+    color: #333;
+    font-size: 36px;
+    padding: 30px 14px 10px;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    transition: .4s;
+}
+.post-date:hover{
+    background-color: #ffc22b
+}
+.post-date span {
+    display: block;
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+
+
+ /*--- Sidebar CSS ---*/
+p.search {
+    border: 2px solid #a3a3a3;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+p.search input[type="search"] {
+    padding: 6px 0;
+    padding-left: 10px;
+    float: left;
+    width: 85%;
+}
+p.search input[type="submit"] {
+    background: #ffc22b none repeat scroll 0 0;
+    color: #333;
+    float: right;
+    padding: 6px 0px;
+    width: 15%;
+}
+p.search input {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+}
+input[placeholder], [placeholder], *[placeholder] {
+    color: #333 !important;
+}
+.single-category  h4,
+.single-category-tags h4 {
+    color: #333;
+}
+.single-category {
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+.single-category li {
+    background: #E0E0E0 none repeat scroll 0 0;
+    color: #FFC22B;
+    list-style:inside square;
+    margin-bottom: 3px;
+    padding: 5px 4px;
+}
+.single-category li p{
+    color: #333;
+    display: inline-block;
+    margin-bottom: 0px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+}
+
+.single-category-tags {
+    margin-top: 40px;
+}
+.single-category-tags h4 {
+}
+.single-category-tags li {
+    background: #E0E0E0 none repeat scroll 0 0;
+    color: #333;
+    display: inline-block;
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Slab', serif;
+    margin-right: 10px;
+    padding: 4px;
+    text-align: center;
+    width: 107px;
+}
+
+
+ /*--- Pagger CSS ---*/
+.pager-wrapper{
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+.pager-wrapper ul li a {
+    background: #B5B5B5 none repeat scroll 0 0;
+    border-radius: 0;
+    color: #333;
+    transition: .4s;
+}
+.pager-wrapper ul li.previous a {
+   margin-right: 5px;
+}
+.pager-wrapper ul li a.active,.pager-wrapper ul li a:hover {
+    background: #ffc22b none repeat scroll 0 0;
+}
+
+
+
+
+ /*--- Preloader CSS ---*/
+.preloader-wrapper {
+    background: #fff none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+.preloader {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+ /*--- Scroll top CSS ---*/
+#scroll-top {
+    background: #ffcc33 none repeat scroll 0 0;
+    bottom: 0;
+    color: #333;
+    font-size: 20px;
+    height: 36px;
+    line-height: 36px;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    width: 38px;
+    z-index: 99;
+    display: none;
+}
