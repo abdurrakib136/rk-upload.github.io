@@ -1,0 +1,395 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:focus{
+    outline: 0px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0px 0px 15px;
+}
+p{
+    margin: 0px 0px 10px;
+}
+.padding_top_bottom{
+    padding: 80px 0px;
+}
+html, body, .header_area, .banner_area, .banner_area div{
+    height: 100%;
+}
+.header_area{
+    position: relative;
+    transition: .5s;
+}
+.logo img{
+    transition: .4s;
+    height: 92px;
+}
+.is-sticky .logo img {
+    height: 55px;
+    padding: 5px 0;
+}
+.is-sticky ul#nav li a {
+    padding: 15px 17px;
+}
+.is-sticky .social_icon a {
+    padding: 15px 5px;
+}
+.is-sticky .menu_area .social_icon {
+  position: absolute;
+  right: 0;
+  top: -19px;
+}
+.menu_area {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.slicknav_menu{
+    display: none;
+}
+.sticky-wrapper {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+.is-sticky .menu_area {
+    background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+}
+.main_menu {
+    text-align: right;
+    padding-right: 105px;
+    position: relative;
+}
+.main_menu ul{
+    padding: 0px;
+    margin: 0px;
+}
+.main_menu ul li{
+    display: inline-block;
+    position: relative;
+}
+.main_menu ul li:before{
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: 0px;
+    height: 2px;
+    width: 100%;
+    background: #cbc8bd;
+    opacity: 0;
+    transform: scale(0);
+    transition: .5s;
+}
+.main_menu ul li:hover:before{
+    opacity: 1;
+    transform: scale(1);
+}
+.main_menu ul li a{
+    display: block;
+    font-size: 21px;
+    color: #FFF;
+    font-weight: 700;
+    padding: 35px 18px;
+    transition: .4s;
+}
+.menu_area .social_icon{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    transition: .4s;
+}
+.menu_area .social_icon a{
+    color: #dab33e;
+    display: inline-block;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 34px 5px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+
+
+.banner_area{}
+.banner{}
+.banner.banner_bg{
+    background: url(../img/banner_bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner .table{
+    display: table;
+    text-align: center;
+}
+.banner .table .table_cell{
+    display: table-cell;
+    vertical-align: middle;
+    height: auto;
+}
+.banner .table .table_cell h2{
+    color: #fff;
+    font-size: 63px;
+    font-weight: 700;
+    text-transform: lowercase;
+    line-height: 78px;
+    padding-bottom: 10px;
+    margin-bottom: 60px;
+    position: relative;
+}
+.banner .table .table_cell h2:after{
+    background: rgba(0, 0, 0, 0) url("../img/heading_bg.png") repeat scroll 0 0;
+    bottom: -44px;
+    content: "";
+    height: 43px;
+    left: 40%;
+    position: absolute;
+    width: 232px;
+}
+.banner .table .table_cell a{
+    color: #fff;
+    display: inline-block;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    margin-top: 20px;
+    
+}
+.banner .table .table_cell a.btn_bg{
+    background: rgba(0, 0, 0, .65);
+    border: 1px solid #080709;
+    margin-right: 10px;
+}
+.banner .table .table_cell a.btn_t{
+    background: rgba(255, 255, 255, .25);
+    margin-left: 10px;
+    border: 1px solid #dedbc6;
+}
+
+
+.about_area, .reservation_area{
+    background: url(../img/pattern.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.about_text{
+    padding-top: 40px;
+}
+ .section_title{
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+}
+ .single_menu .section_title{
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+.section_title.orrange_color{
+    color: #cc9900;
+    background: url(../img/devider_one.png) no-repeat;
+    background-position: center bottom;
+}
+.section_title.white_color{
+    color: #fff;
+    background: url(../img/devider_two.png) no-repeat;
+    background-position: center bottom;
+}
+.section_title.devider_s{
+    background: url(../img/devider_s.jpg) no-repeat;
+    background-position: left bottom;
+}
+.about_text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #4c4c4c;
+    padding-bottom: 20px;
+}
+.about_img img{
+    width: 100%;
+}
+.ingredient_area{
+    background: url(../img/irreg_img.jpg) no-repeat center center / cover;
+}
+.ingredient{
+}
+.overlay_bg{
+    position: relative;
+    z-index: 1;
+    padding: 40px 30px;
+}
+.overlay_bg:before{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: .67;
+    content: "";
+    z-index: -1;
+}
+.ingredient p{
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFF;
+    padding-bottom: 20px;
+}
+.ingredient img{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid #595046;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.single_menu{
+    padding-bottom: 40px;
+}
+.menu_item{
+    margin: 18px 0;
+    padding: 10px;
+}
+.menu_item.special {
+    border: 1px solid #cc9900;
+    position: relative;
+}
+.menu_item.special > span {
+    background: #cc9900 none repeat scroll 0 0;
+    padding: 0 17px;
+    position: absolute;
+    right: -1px;
+    top: -25px;
+    font-size: 14px;
+    color: #FFF;
+    text-transform: capitalize;
+}
+.menu_item h4 {
+    border-bottom: 1px solid;
+    color: #c89f2d;
+    font-size: 21px;
+    padding-bottom: 4px;
+}
+.menu_item p {
+    color: #4c4c4c;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.menu_item h4 span {
+    float: right;
+    font-weight: 700;
+}
+
+
+
+.reviews_area{
+    background: url(../img/reviews_img.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 600px;
+}
+
+.reviews{
+    padding: 50px;
+}
+.reviews p {
+    color: #dde0df;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    position: relative;
+}
+.reviews h5 {
+    color: #dde0df;
+    font-weight: 500;
+    font-size: 18px;
+}
+.reviews p::before {
+    color: #dde0df;
+    content: "\f10d";
+    font-family: fontawesome;
+    left: -20px;
+    position: absolute;
+    top: -6px;
+    font-size: 30px;
+}
+
+
+.reservation_area img {
+    width: 100%;
+    padding-top: 10px;
+}
+.contact_area p {
+    color: #4c4c4c;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.contact_area .section_title {
+    margin-bottom: 10px;
+}
+.contact_form label {
+    color: #c9a131;
+    font-size: 14px;
+    font-weight: 700;
+}
+.contact_form input {
+    border: 1px solid #cdaa4c;
+    box-sizing: border-box;
+    color: #7c7c7c;
+    margin-bottom: 8px;
+    padding: 2px 0 2px 10px;
+    width: 100%;
+}
+.contact_form input[type="submit"]{
+    background: none;
+    border: none;
+    color: #fff;
+    padding: 4px 0px;
+}
+.contact_form p {
+    background: #c9a131 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 10px auto 0;
+    padding-top: 9px;
+    text-align: center;
+    width: 200px;
+}
+.footer_area{
+    background: #191919;
+    color: #FFF;
+}
+.section_title_s {
+    font-size: 21px;
+}
+.about_footer.text-center a {
+    color: #FFF;
+    font-weight: 700;
+    padding-right: 10px;
+    padding-top: 20px;
+    display: inline-block;
+}

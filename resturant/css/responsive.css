@@ -1,0 +1,144 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .main_menu ul li a {
+      font-size: 18px;
+      padding: 35px 13px;
+    }
+    .ingredient img {
+      height: 80px;
+      width: 80px;
+    }
+    .about_text {
+      padding: 0px;
+    }
+    .reviews p::before {
+      left: -34px;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .main_menu {
+      padding-right: 75px;
+    }
+    .main_menu ul li a {
+      font-size: 15px;
+      padding: 37px 8px;
+    }
+    .menu_area .social_icon a {
+      font-size: 19px;
+      padding: 37px 2px;
+
+    }
+    .menu_area .social_icon {
+      right: 20px;
+    }
+    .banner .table .table_cell h2 {
+      font-size: 50px;
+      line-height: 60px;
+    }
+    .banner .table .table_cell h2::after {
+      margin-left: -40px;
+    }
+    .about_text {
+      padding: 0px;
+    }
+    .is-sticky ul#nav li a{
+      padding: 15px 10px;
+    }
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .main_menu, .menu_area .social_icon {
+      display: none;
+    }
+    .logo img{
+      height: 50px;
+    }
+    .slicknav_menu {
+      position: fixed;
+      right: 0;
+      top: 4px;
+      background: none;
+      z-index: 9999;
+      display: block;
+    }
+    .slicknav_btn {
+        background: none;
+    }
+    .slicknav_nav {
+      background: rgba(0, 0, 0, 0.65) none repeat scroll 0 0;
+      padding: 18px;
+      width: 180px;
+    }
+    .slicknav_nav .slicknav_row, .slicknav_nav a {
+      margin: 0;
+      padding: 0;
+      font-size: 18px;
+      font-weight: 700;
+      padding: 6px 0px;
+      border-bottom: 1px solid transperant;
+    }
+    .slicknav_nav a:hover {
+      border-bottom: 1px solid #fff;
+        background: none;
+      border-radius: 0px;
+      color: #fff;
+}
+    .banner .table .table_cell h2 {
+      font-size: 26px;
+      line-height: 32px;
+    }
+    .banner .table .table_cell h2::after {
+      background-repeat: no-repeat;
+      left: 18%;
+    }
+    .banner .table .table_cell a.btn_bg, .banner .table .table_cell a.btn_t {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .section_title {
+      font-size: 30px;
+      margin-bottom: 26px;
+      padding-bottom: 36px;
+    }
+    .about_text {
+      padding-top: 0px;
+      padding-bottom: 20px;
+    }
+    .ingredient img {
+      border: 2px solid #595046;
+      height: 70px;
+      margin-left: 6px;
+      margin-right: 6px;
+      width: 70px;
+    }
+    .reviews p {
+      font-size: 16px;
+    }
+    .reviews p::before{
+        font-size: 21px;
+    }
+    .reservation_area img {
+      height: 400px;
+      padding-bottom: 15px;
+    }
+    .contact_area {
+      padding-top: 35px;
+    }
+    .about_footer {
+      padding: 20px 0px;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    .banner .table .table_cell h2 {
+      font-size: 40px;
+      line-height: 66px;
+    }
+        .banner .table .table_cell h2::after {
+      left: 33%;
+    }
+}
