@@ -1,0 +1,428 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+	.main-menu ul#nav li a,
+	.main-menu.footer-menu ul#footer-nav li a {
+	    padding: 9px 16px;
+	}
+	.main-menu ul#nav li ul.submenu {
+	    width: 200px;
+	}  
+	.main-menu ul#nav li .mega-menu-wrapper ul li:hover a {
+	    font-size: 14px;
+	    padding-left: 20px;
+	} 
+	.header-area a.theme-btn, .website-contact-form input[type="submit"] {
+	    font-size: 13px;
+	    padding: 9px;
+	}
+	.welcome-text h1 {
+	    font-size: 35px;
+	}
+	.website-contact-form input[type="submit"] {
+	    padding: 13px 20px;
+	}
+	.single-service {
+	    padding: 15px;
+	    height: 210px;
+	}
+	.pricing-body ul {
+	    font-size: 15px;
+	}
+	.social-links li {
+	    width: 32%;
+	}
+	.service-slide-text h1 {
+	    font-size: 40px;
+	}
+	.welcome-text.service {
+	    padding-top: 0;
+	}
+	.market-text.pdt-50{
+		padding: 0px;
+	}
+	.case-study-1 .single-study-wrapper .single-study-carousel {
+	    height: 200px;
+	}
+	.pdt-100.pdl-30{
+		padding-top: 30px;
+	}
+	.section-padding.nopadding-top .pdt-50{
+		padding-top: 0px;
+	}
+	.blog-single .breadcrumb-text h1{
+		font-size: 35px;
+	}
+	.general-panel .panel-heading a {
+	    font-size: 14px;
+	}
+}
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+	.slicknav_menu{
+	    display: block;
+	}
+    .main-menu {
+	    display: none;
+	}
+ 
+ 	.logo {
+	    text-align: center;
+	}
+	.header-area .text-right {
+	    margin-top: 20px;
+	    text-align: center;
+	}
+	.welcome-area {
+	    padding: 80px 0;
+	}
+	.welcome-text h1 {
+	    font-size: 32px;
+	    margin-bottom: 10px;
+	    max-width: inherit;
+	}
+	.website-contact-form {
+	    padding-bottom: 15px;
+	    padding-top: 15px;
+	}
+	.section-padding {
+		padding: 80px 0px;
+	}
+	.service-btm-text .theme-btn {
+	    margin-bottom: 20px;
+	}
+	.services-area .text-right {
+	    text-align: left;
+	}
+	.cta-area h2 {
+	    text-align: center;
+	}
+	.cta-area .text-right {
+	    margin-top: 20px;
+	    text-align: center;
+	}
+	.quik-contact {
+	    margin-top: 30px;
+	}
+	.email-submit-form {
+	    margin: 20px 0;
+	}
+
+	.footer-logo {
+	    text-align: center;
+	    margin-bottom: 20px;
+	}
+	.service-slide-text h1 {
+	    font-size: 40px;
+	}
+	.check-now-area input.service-btn {
+	    padding: 11px;
+	}
+	.single-blog-text {
+	    margin-bottom: 30px;
+	}
+	.main-menu.footer-menu {
+	    display: block;
+	}
+	.social-links.service-page {
+	    text-align: center;
+	}
+	.service-footer-area, .service-footer-area .text-right {
+	    text-align: center;
+	}
+	.image-gallery {
+	    text-align: left;
+	}
+	.absolute-img {
+	    left: 0;
+	    position: relative;
+	    top: 0;
+	}
+	.service-2::after{
+		display: none;
+	}
+	.service-2::before{
+		width: 100%;
+	}
+	.features-area.section-padding {
+	    padding-bottom: 0;
+	}
+	.single-testi-item {
+	    margin-bottom: 20px;
+	}
+	.breadcrumb-area{
+		padding: 80px 0px;
+	}
+	.breadcrumb-text h1 {
+	    line-height: 40px;
+	    margin-bottom: 10px;
+	}
+	.section-padding.market-area {
+	    padding-top: 0;
+	}
+	.market-text.pdt-50 {
+	    padding-top: 0;
+	}
+	.text-right {
+	    text-align: left;
+	}
+	.pdl-30{
+		padding-left: 0px;
+		padding-top: 50px;
+	}
+	.section-padding.nopadding-top {
+	    padding-top: 0;
+	}
+	.section-padding.mobile-padding {
+  	    padding: 0;
+	}
+	#general-question {
+	    margin-bottom: 50px;
+	}
+	.comment-form.quote {
+	    margin-top: 30px;
+	}
+	.pdt-120.mobile-padding{
+		padding-top: 40px;
+	}
+	.home-page-2 .pricing-table-wrapper {
+	    margin-bottom: 30px;
+	}
+	.single-blog.border {
+	    margin-bottom: 20px;
+	}
+	
+
+	.single-service {
+	    margin-bottom: 30px;
+	}
+}
+
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 991px) { 
+
+	.slicknav_menu{
+	    display: block;
+	}
+    .main-menu {
+	    display: none;
+	}
+	.logo {
+	    text-align: center;
+	}
+	.header-area .text-right {
+	    margin-top: 20px;
+	    text-align: center;
+	}
+	.welcome-area {
+	    padding: 80px 0;
+	}
+	.welcome-text h1 {
+	    font-size: 32px;
+	    margin-bottom: 10px;
+	    max-width: inherit;
+	}
+	.website-contact-form {
+	    padding-bottom: 15px;
+	    padding-top: 15px;
+	}
+	.section-padding {
+		padding: 80px 0px;
+	}
+	.service-btm-text .theme-btn {
+	    margin-bottom: 20px;
+	}
+	.services-area .text-right {
+	    text-align: left;
+	}
+	.cta-area h2 {
+	    text-align: center;
+	}
+	.cta-area .text-right {
+	    margin-top: 20px;
+	    text-align: center;
+	}
+	.quik-contact {
+	    margin-top: 30px;
+	}
+	.email-submit-form {
+	    margin: 20px 0;
+	}
+
+	.footer-logo {
+	    text-align: center;
+	    margin-bottom: 20px;
+	}
+	.service-slide-text h1 {
+	    font-size: 40px;
+	}
+	.check-now-area input.service-btn {
+	    padding: 11px;
+	}
+	.single-blog-text {
+	    margin-bottom: 30px;
+	}
+	.main-menu.footer-menu {
+	    display: block;
+	}
+	.social-links.service-page {
+	    text-align: center;
+	}
+	.service-footer-area, .service-footer-area .text-right {
+	    text-align: center;
+	}
+	.image-gallery {
+	    text-align: left;
+	}
+	.absolute-img {
+	    left: 0;
+	    position: relative;
+	    top: 0;
+	}
+	.service-2::after{
+		display: none;
+	}
+	.service-2::before{
+		width: 100%;
+	}
+	.features-area.section-padding {
+	    padding-bottom: 0;
+	}
+	.single-testi-item {
+	    margin-bottom: 20px;
+	}
+	.breadcrumb-area{
+		padding: 80px 0px;
+	}
+	.breadcrumb-text h1 {
+	    line-height: 40px;
+	    margin-bottom: 10px;
+	}
+	.section-padding.market-area {
+	    padding-top: 0;
+	}
+	.market-text.pdt-50 {
+	    padding-top: 0;
+	}
+	.text-right {
+	    text-align: left;
+	}
+	.pdl-30{
+		padding-left: 0px;
+		padding-top: 50px;
+	}
+	.section-padding.nopadding-top {
+	    padding-top: 0;
+	}
+	.section-padding.mobile-padding {
+  	    padding: 0;
+	}
+	#general-question {
+	    margin-bottom: 50px;
+	}
+	.comment-form.quote {
+	    margin-top: 30px;
+	}
+	.pdt-120.mobile-padding{
+		padding-top: 40px;
+	}
+	.home-page-2 .pricing-table-wrapper {
+	    margin-bottom: 30px;
+	}
+	.single-blog.border {
+	    margin-bottom: 20px;
+	}
+    .single-service {
+	    margin-bottom: 30px;
+	}
+
+	.owl-nav{
+		display: none;
+	}
+	.service-2, .service-2.section-padding{
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .footer-area ul{
+    	margin-bottom: 30px;
+    }
+    .welcome-text {
+	    margin-top: 0px;
+	}
+	.section-title h2 {
+		font-size: 22px;
+		margin-bottom: 15px;
+	}
+	.section-title {
+	    padding-bottom: 60px;
+	}
+	.cta-area.home-page-2 h2, .cta-area.theme-5 h2 {
+	    font-size: 25px;
+	    line-height: 33px;
+	}
+	.service-cta-area h1 {
+	    font-size: 32px;
+	}
+	 .search-trigger span {
+	    display: block;
+	    margin-top: -8px;
+	}
+	.service-slide-text h1 {
+	    font-size: 25px;
+	    line-height: 32px;
+	}
+
+	.get-result-form input {
+	    width: 100%;
+	}
+	.get-result-form input[type="submit"] {
+	    width: 50%;
+	}
+	.image-gallery img{
+		margin-bottom: 15px;
+	}
+	.cta-area.theme-4 h1{
+		font-size: 30px;
+	}
+	.breadcrumb-text h1 {
+	    font-size: 30px;
+	    line-height: 37px;
+	}
+	.pricing-table-wrapper {
+	    margin-bottom: 20px !important;
+	}
+	.mobile-padding img {
+	    margin-top: 25px;
+	}
+	.social-share a.facebook{
+		margin-bottom: 10px;
+	}
+	
+	.map-content{
+		width: 330px ;
+	}
+	.social-links li{
+		width: 37%;
+	}
+	
+    .website-contact-form input[type="text"]{
+    	width: 100%;
+    }
+    .website-contact-form input[type="submit"]{
+    	width: 70%;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	
+	.service-cta-area h1 {
+	    font-size: 25px;
+	}
+}

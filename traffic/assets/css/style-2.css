@@ -1,0 +1,146 @@
+/*------ Welcome-2 CSS-----*/
+.slicknav_btn {
+    background-color: #06d6a0 ;
+
+}
+.slicknav_nav a:hover, .slicknav_row:hover, .slicknav_nav .slicknav_row:hover {
+    background: #06d6a0  none repeat scroll 0 0;
+}
+.welcome-area{
+    background-image: url(../img/home-page-2/hero-bg-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    padding: 100px 0px;
+}
+.welcome-text {
+    margin-top: 110px;
+}
+.welcome-text h1 {
+    color: #fff;
+    font-size: 41px;
+    margin-bottom: 30px;
+    max-width: 430px;
+    text-transform: none;
+}
+.form-header p {
+    font-size: 14px;
+    margin-bottom: 45px;
+}
+a.theme-btn {
+    background: #06d6a0 none repeat scroll 0 0;
+    padding: 8px 22px;
+}
+input[type="submit"] {
+    background: #06d6a0;
+}
+.testimonial-carousel .owl-dots div {
+    background-color: #e2e2e2 ;
+}
+.testimonial-carousel .owl-dots div.active {
+    background-color: #06d6a0;
+}
+
+.single-study-carousel-2{
+    overflow: hidden;
+}
+.case-study-area .owl-carousel .owl-stage-outer{
+    overflow: hidden;
+}
+.case-study-area {
+    background: #fff;
+}
+.case-study-area .owl-dot.active{
+    background-color:#06d6a0;
+}
+
+
+/*---- Service-2 CSS----*/
+
+.single-service {
+    background: #fbfbfb none repeat scroll 0 0;
+    border: medium none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 250px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 30px;
+    width: 100%;
+    margin-bottom: 0px;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+}
+.single-service i {
+    color: #2ec7fd;
+    font-size: 48px;
+    margin-bottom: 25px;
+    transition: .4s;
+}
+.single-service h3 {
+    font-size: 22px;
+    transition: .4s;
+}
+
+.single-service:hover{
+    border: none;
+}
+.single-service:after{
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: -100%;
+    height: 100%;
+    width: 100%;
+    background: #05bdfe;
+    background: -moz-linear-gradient(top, #05bdfe 0%, #4482ec 100%);
+    background: -webkit-linear-gradient(top, #05bdfe 0%,#4482ec 100%);
+    background: linear-gradient(to bottom, #05bdfe 0%,#4482ec 100%);
+    z-index: -1;
+    transition: .4s;
+}
+.single-service:hover i, .single-service:hover h3{
+    color: #FFF;
+}
+.single-service:hover:after{
+    left: 0;
+}
+
+.single-service-slide:after{
+    position: absolute;
+    z-index: -1;
+    background: #1d63f0;
+    background: -moz-linear-gradient(45deg, #1d63f0 0%, #1ad7fd 100%);
+    background: -webkit-linear-gradient(45deg, #1d63f0 0%,#1ad7fd 100%);
+    background: linear-gradient(45deg, #1d63f0 0%,#1ad7fd 100%);
+    content: "";
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: .9;
+}
+.single-study-carousel.bg-1{background: url(../img/service/case1.png);}
+.single-study-carousel.bg-2{background: url(../img/service/case2.png);}
+.single-study-carousel.bg-3{background: url(../img/service/case3.png);}
+.single-study-carousel.bg-4{background: url(../img/service/case4.png);}
+
+
+/*---- Testimonial-2 CSS----*/
+
+.single-testimonial-carousel h4 {
+    margin: 0px;
+}
+.testimonial-area.section-padding{
+    padding: 80px;
+}
+
+

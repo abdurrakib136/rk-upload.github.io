@@ -1,0 +1,59 @@
+.slicknav_btn,
+.slicknav_menu ul li a:hover, 
+.slicknav_menu .slicknav_row:hover,
+.main-menu ul#nav li ul.submenu li:hover > a,
+.main-menu ul#nav li .mega-menu-wrapper ul li:hover a,
+.study-carousel-text,
+.owl-dots div.active,.welcome-service-area .owl-dots div,
+.single-study-carousel:hover .study-carousel-text,.theme-btn.white,
+.service-slide-text a,
+.case-study-area .owl-dots div.active,
+a.theme-btn,
+.home2 .main-menu ul#nav li .mega-menu-wrapper ul li:hover > a,
+.home2 .main-menu ul#nav li ul.submenu li:hover > a,
+.cta-area.home-page-2 a.theme-btn,
+.testimonial-carousel .owl-dots div.active,
+ .website-contact-form input[type="submit"],
+ .email-submit-form input[type="submit"],
+ .home-page-2 .pricing-footer,
+input[type="submit"]{
+
+	background: #27ae60;
+}
+.main-menu ul li:hover > a, 
+.main-menu ul li.active a,
+.single-service:hover h3, 
+.single-service:hover i, 
+.single-service:hover a.readmore-btn,
+.pricing-head h1,
+.testi-icon,.terms-area ul li:hover a, .social-links.service-page li:hover a i,
+.social-links li:hover a,
+.social-links li:hover a i,
+a.read-more-blog-btn,
+.home2 .main-menu ul li:hover > a,
+ .main-menu ul li.active a,
+  .main-menu.footer-menu ul#footer-nav li:hover a,
+a.read-more-blog-btn:hover,
+.footer-area ul li:hover a, .footer-area ul li:hover a i,
+.home-page-2 .pricing-head h1,
+.home-page-2 .pricing-table-wrapper:hover span,
+.color.footer-area ul li:hover a, 
+.color.footer-area ul li:hover a i {
+	color: #27ae60;
+}
+.main-menu ul#nav li ul.submenu,
+.main-menu ul#nav li ul.submenu li ul,
+.main-menu ul li.mega-menu ul.mega-menu-wrapper,
+.single-service:hover,
+.home2 .main-menu ul#nav li ul.submenu,.home2  .main-menu ul#nav li ul.submenu li ul,
+.home2 .main-menu ul li.mega-menu ul.mega-menu-wrapper,
+.main-menu ul#nav li ul.submenu,
+.pricing-table-wrapper:hover .pricing-head,
+.pricing-table-wrapper:hover,
+.email-submit-form input[type="submit"]{
+
+	border-color: #27ae60;
+}
+.cta-area.home-page-2 a.theme-btn{
+	color: #fff;
+}

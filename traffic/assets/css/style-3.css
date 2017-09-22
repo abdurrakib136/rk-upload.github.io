@@ -1,0 +1,174 @@
+/*------ welcome-3 CSS------*/
+
+html, body, .site, .welcome-service-area, .welcome-service-area div{
+    height: 100%;
+}
+.slicknav_btn {
+    background-color: #06d6a0 ;
+
+}
+.slicknav_nav a:hover, .slicknav_row:hover, .slicknav_nav .slicknav_row:hover {
+    background: #06d6a0  none repeat scroll 0 0;
+}
+.slicknav_nav .search-trigger{
+    display: none;
+}
+.welcome-service-area div.service-slide-text,
+.welcome-service-area .service-slide-text div,
+.welcome-service-area div.owl-nav,
+.welcome-service-area div.owl-dots{
+    height: auto;
+}
+.welcome-service-area{
+    position: relative;
+}
+
+.menu-absolute .mega-menu-wrapper {
+    width: auto !important;
+    left: 0px !important;
+}
+
+input.service-btn, a.service-btn {
+    background: #06d6a0 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+}
+a.theme-btn {
+    background: #06d6a0 none repeat scroll 0 0;
+    padding: 8px 22px;
+}
+.email-submit-form input[type="submit"]{
+    background: #06d6a0 none repeat scroll 0 0;
+    border-color: #06d6a0;
+}
+a.service-btn.theme-btn {
+    padding: 10px 35px;
+    margin-top: 15px;
+}
+
+input.service-btn, a.service-btn {
+    background: #06d6a0 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+}
+.welcome-text.service h1 {
+    font-size: 20px;
+}
+.welcome-text.service {
+    padding-top: 50px;
+}
+.welcome-service-area .owl-dots div {
+    background: #24d5a1 none repeat scroll 0 0;
+    border-radius: 50%;
+    display: inline-block;
+    height: 12px;
+    margin: 2px;
+    width: 12px;
+    z-index: 3;
+}
+
+
+
+/*-----Single-Service-3 CSS-----*/
+
+.single-service{
+    transition: all .4s;
+    border: 1px solid transparent;
+}
+.single-service h1 {
+    font-size: 70px;
+    opacity: 0.22;
+}
+.single-service:hover{
+    border: 1px solid #06d6a0;
+}
+.single-service:hover h3{
+    color: #373737;
+}
+.single-service:hover i, .single-service:hover a.readmore-btn{
+    color: #06d6a0;
+}
+
+.single-service-slide.slide-bg-1{
+    background-image: url(../img/home-page-3/service-hero.jpg);
+}
+.single-service-slide.slide-bg-2{
+    background-image: url(../img/home-page-3/banner2.jpg);
+}
+.service-slide-text{
+    position: relative;
+    z-index: 3;
+}
+.single-service-slide{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: table;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+}
+.single-service-slide:after{
+    position: absolute;
+    z-index: 1;
+    background: #1d63f0;
+    background: -moz-linear-gradient(45deg, #1d63f0 0%, #1ad7fd 100%);
+    background: -webkit-linear-gradient(45deg, #1d63f0 0%,#1ad7fd 100%);
+    background: linear-gradient(45deg, #1d63f0 0%,#1ad7fd 100%);
+    content: "";
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: .9;
+}
+/*------- Case-Study-3 CSS -------*/
+
+.study-carousel-text-2{
+    overflow: hidden;
+}
+
+.single-study-carousel:hover .study-carousel-text {
+    background-color: #06d6a0;
+}
+.study-carousel-text:hover {
+    background: #10d7a3;
+}
+.single-study-carousel.bg-1{
+    background: url(../img/home-page-3/case1.png);
+}
+
+.single-study-carousel.bg-2{
+    background: url(../img/home-page-3/case2.png);
+}
+
+.single-study-carousel.bg-3{
+    background: url(../img/home-page-3/case3.png);
+}
+
+.single-study-carousel.bg-4{
+    background: url(../img/home-page-3/case4.png);
+}
+
+.single-study-carousel.bg-5{
+    background: url(../img/home-page-3/case2.png);
+}
+.case-study-carousel .owl-dot.active{
+    background-color: #06d6a0;
+}
+
+
+
+/*-----Blog-3 CSS-----*/
+
+.single-blog h4 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 15px;
+}
+.main-menu.footer-menu ul#nav li:hover a{
+    color: #06d6a0;
+}
+

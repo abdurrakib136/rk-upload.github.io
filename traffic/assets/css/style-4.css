@@ -1,0 +1,70 @@
+/*---- Homepage-4 Base CSS----*/
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+.slicknav_btn {
+    background-color: #06d6a0 ;
+
+}
+.home-2 .slicknav_nav a:hover, .home-2 .slicknav_row:hover, .home-2 .slicknav_nav .slicknav_row:hover {
+    background: #06d6a0  none repeat scroll 0 0;
+}
+.body{
+    overflow-x: hidden;
+}
+html, body, .welcome-area-4, .single-service-slide{
+    height: 100%;
+}
+/*---- Homepage-4 Service CSS----*/
+.single-service-slide {
+    display: table;
+    width: 100%;
+}
+.service-slide-text {
+    color: #fff;
+    display: table-cell;
+    font-weight: 300;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+.service-slide-text h1 {
+    color: #fff;
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 51px;
+    margin-bottom: 21px;
+}
+.single-study-carousel:hover .study-carousel-text {
+    background-color: #06d6a0;
+}
+.single-service:hover {
+    border: 1px solid #0ac090;
+}
+.single-service:hover h3, .single-service:hover i, .single-service:hover a.readmore-btn {
+    color: #0ac090;
+}
+
+a.theme-btn.color, input[type="submit"].color {
+    background-color: #0ac090;
+}
+input[type="submit"].color{
+    border-color: #0ac090
+}
+input[type="submit"].color:hover{
+    border-color: #1C4053
+}
+.main-menu ul#nav li:hover a{
+    color: #0ac090;
+}
+.single-service:hover h3{
+    color: #373737;
+}
+
+.single-service h1{
+    opacity: .5;
+    font-weight: 400;
+}
+
+
+

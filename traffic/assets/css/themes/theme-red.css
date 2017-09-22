@@ -1,0 +1,35 @@
+.slicknav_btn,
+.slicknav_menu ul li a:hover, 
+.slicknav_menu .slicknav_row:hover,
+.main-menu ul#nav li ul.submenu li:hover > a,
+.main-menu ul#nav li .mega-menu-wrapper ul li:hover a,
+.study-carousel-text,
+.owl-dots div.active,
+.case-study-area .owl-dots div.active,
+a.theme-btn,
+input[type="submit"]{
+
+	background: #ef476f;
+}
+.main-menu ul li:hover > a, 
+.main-menu ul li.active a,
+.single-service:hover h3, 
+.single-service:hover i, 
+.single-service:hover a.readmore-btn,
+.pricing-head h1,
+.social-links li:hover a,
+.social-links li:hover a i,
+.color.footer-area ul li:hover a, 
+.color.footer-area ul li:hover a i {
+	color: #ef476f;
+}
+.main-menu ul#nav li ul.submenu,
+.main-menu ul#nav li ul.submenu li ul,
+.main-menu ul li.mega-menu ul.mega-menu-wrapper,
+.single-service:hover,
+.pricing-table-wrapper:hover .pricing-head,
+.pricing-table-wrapper:hover,
+.email-submit-form input[type="submit"]{
+
+	border-color: #ef476f;
+}
