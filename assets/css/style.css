@@ -1,0 +1,105 @@
+/* Base CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800');
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 400;
+    color: #373737;
+}
+body {
+    font-family: 'Khula', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #999999;
+    line-height: 26px;
+}
+a:hover { text-decoration: none }
+
+
+
+/*---header css--*/
+
+.header_area {
+    padding: 20px 0;
+}
+.main_menu ul#nav {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.main_menu ul#nav li {
+    display: inline-block;
+}
+.main_menu ul#nav li a {
+    color: #888888;
+    display: block;
+    font-weight: 400;
+    padding: 9px 20px;
+    text-transform: capitalize;
+    transition: all .4s;
+}
+.main_menu ul#nav li:hover a, .main_menu ul#nav li.active a{
+    color: #ef476f;
+}
+a.theme_btn, .website_contact_form input[type="submit"] {
+    background: #ef476f none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    padding: 9px 20px;
+    border-radius: 4px;
+}
+
+
+
+
+/*---welcome_area css--*/
+
+.welcome_area{
+    padding: 150px 0px;
+}
+.welcome_text h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    max-width: 450px;
+}
+.website_contact_form {
+    padding-top: 25px;
+}
+input[type="text"], input[type="tel"], input[type="email"], input[type="submit"], textarea {
+    background: none;
+    border: 1px solid #efefef;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+.website_contact_form input[type="text"]{
+    width: 300px;
+}
+.website_contact_form input[type="submit"]{
+    border: none;
+    padding: 12px 20px;
+}
+
