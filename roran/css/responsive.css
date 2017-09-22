@@ -1,0 +1,499 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .menu {
+      width: 64%;
+    }
+    .social_icon {
+      width: 16%;
+    }
+    .about_single {
+      width: 28.333%;
+    }
+    .single_counter, .client_logo {
+      width: 21%;
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+    .single_services {
+      width: 30%;
+    }
+}
+
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .container{
+      width: 90%;
+    }  .header_area {
+      padding: 30px 0px;
+      height: 450px;
+    }
+    .header_left {
+      float: left;
+        width: calc(65% - 20px);
+    }
+    .header_right{
+         float: right;
+        width: calc(35% - 20px);
+    }
+    .header_left h1 {
+      font-size: 75px;
+      line-height: 80px;
+    }
+    .header_left h2 {
+      font-size: 37px;
+    }
+    .logo {
+      width: 16%;
+    }
+    .menu ul#nav li a, .social_icon ul#social li a {
+      padding: 10px 10px;
+    }
+    .menu {
+        width: 59%;
+    }
+    .social_icon {
+        width: 25%;
+    }
+    .about_single {
+      width: 27.7%;
+    }
+    .single_counter {
+      width: 20.5%;
+    }
+    .single_counter .icon_details {
+      width: 67%;
+    }
+    .single_counter .icon_details h2 {
+      font-size: 37px;
+      line-height: 41px;
+    }
+    .single_counter .icon_details p {
+      font-size: 15px;
+    }
+    .single_counter .counter_icon {
+      width: 22%;
+    }
+    .client_logo {
+      width: 20.7%;
+    }
+    .single_services {
+      width: 29%;
+    }
+    .single_services .services_icon {
+      width: 18%;
+    }
+    .single_services .icon_details {
+      width: 82%;
+    }
+    .single_services .icon_details h4 {
+      font-size: 15px;
+    }
+    .single_services .icon_details p {
+      font-size: 12px;
+    }
+    .portfolio_item {
+      height: 164px;
+    }
+    h1 {
+      font-size: 40px;
+    }
+    .section_title h2 {
+        font-size: 25px;
+        padding-bottom: 10px;
+        margin: 0px;
+    }
+    .section_title p {
+      padding-top: 20px;
+    }
+    .section_title {
+      padding-bottom: 40px;
+    }
+}
+
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .container {
+      width: 100%;
+    }
+    .menu_area, .header_area, .about_area, .counter_area, .client_area, .services_area, testimonial_area, .team_area, .team_slider_area, .contact_us_area, .footer_area{
+         padding-left:20px;
+         padding-right:20px;
+    }
+    .header_area{
+     height: 300px;
+     
+    }
+    .header_area::after {
+      display: none;
+    }
+    .header_left h1 {
+      font-size: 31px;
+      line-height: 33px;
+    }
+    .header_left h2 {
+      font-size: 25px;
+        margin-bottom: 5px;
+    }
+    .header_left h3 {
+      font-size: 23px;
+    }
+    .header_right{
+      display: none;
+    }
+    h1 {
+      font-size: 30px;
+    }
+    .section_title h2 {
+      font-size: 21px;
+      padding-bottom: 10px;
+    }
+    .section_title p {
+      font-size: 12px;
+    }
+    .about_single {
+      float: none;
+        width: 100%;
+        margin-bottom: 40px;
+        padding: 0px;
+    }
+    .about {
+      margin: 20px 0px 0px;
+    }
+    .counter_list,  .services {
+      margin: 0px;
+    }
+    .single_counter {
+      float: none;
+        padding: 0px;
+      width: 22%;
+    }
+    .single_counter, .single_services {
+      float: none;
+      padding-left: 0px;
+      padding-right: 0px;
+      width: 100%;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    .single_counter .counter_icon {
+      float: none;
+      width: auto;
+       margin-bottom: 10px;
+    }
+    .single_counter .icon_details {
+      float: none;
+      width: 100%;
+    }
+    .our_client {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+  
+    .client_logo {
+      float: left;
+      padding-left: 10px;
+      width: calc(50% - 10px);
+      margin-bottom: 20px;
+        padding-right: 0px;
+    }
+     .client_logo:first-child{
+        padding-left: 0px;
+    }
+    .single_services{
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+    .single_services .services_icon {
+      width: 12%;
+    }
+    .single_services .icon_details {
+      box-sizing: border-box;
+      float: right;
+      padding-left: 20px;
+      width: 88%;
+      text-align: left;
+    }
+    .testi_text {
+      width: 100%;
+    }   
+    .testi_text h3::before, .testi_text h3::after {
+      display: none;
+    }
+    .testi_text h3::after {
+     display: none;
+    }
+    .testi_text h3 {
+      font-size: 15px;
+    }
+    .single_slide {
+      float: none;
+      padding-left: 0px;
+      padding-right: 0px;
+      width: 100%;
+      margin-bottom: 40px;
+    }
+    .portfolio_menu ul li {
+      padding-bottom: 10px;
+      display: block;
+    }
+    .portfolio_item {
+      height: 214px;
+      width: 100%;
+    }
+    .portfolio_item:nth-child(odd) {
+     background: #39a38f none repeat scroll 0 0;
+    }
+    .portfolio_item:nth-child(even) {
+      background: #62c5b2  none repeat scroll 0 0;
+    }
+    .contact_form {
+      float: none;
+      width: 100%;
+        margin-bottom: 30px;
+    }
+    .contact_info {
+      float: none;
+      width: 100%;
+    }
+    .footer div{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .btop{
+        padding: 20px 0px;
+    }
+    .social_icon a {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .main_menu .social_icon, .menu{
+        display: none;
+    }
+    .main_menu .social_icon, .menu{
+        display: none;
+    }
+    
+    .slicknav_menu{
+        display: block;
+    }
+    .logo{
+        display: none;
+    }
+    .slicknav_menu {
+      background: none;
+      padding: 0px;
+    }
+    .slicknav_nav, .slicknav_nav ul {
+      background: rgba(0, 0, 0, .5);
+        margin: 0px;
+    }
+    .slicknav_nav a:hover {
+      background: #ccc none repeat scroll 0 0;
+      color: #222;
+       border-radius: 0px;
+    }
+    .slicknav_nav ul li a{
+        margin: 0px;
+    }
+    .owl-nav{
+        display: none;
+    }
+    .team_slider_area .owl-dots {
+        bottom: -50px;
+        left: 50%;
+        position:static;
+        margin-left: 0px;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+     .container {
+      width: 100%;
+    }
+    .menu_area, .header_area, .about_area, .counter_area, .client_area, .services_area, testimonial_area, .team_area, .team_slider_area, .contact_us_area, .footer_area{
+         padding-left:20px;
+         padding-right:20px;
+    }
+    .header_area{
+     height: 300px;
+     
+    }
+    .header_area::after {
+      display: none;
+    }
+    .header_left h1 {
+      font-size: 31px;
+      line-height: 33px;
+    }
+    .header_left h2 {
+      font-size: 25px;
+        margin-bottom: 5px;
+    }
+    .header_left h3 {
+      font-size: 23px;
+    }
+    .header_right{
+      display: none;
+    }
+    h1 {
+      font-size: 30px;
+    }
+    .section_title h2 {
+      font-size: 21px;
+      padding-bottom: 10px;
+    }
+    .section_title p {
+      font-size: 12px;
+    }
+    .about_single {
+      float: none;
+        width: 100%;
+        margin-bottom: 40px;
+        padding: 0px;
+    }
+    .about {
+      margin: 20px 0px 0px;
+    }
+    .counter_list,  .services {
+      margin: 0px;
+    }
+    .single_counter {
+      float: none;
+        padding: 0px;
+      width: 22%;
+    }
+    .single_counter, .single_services {
+      float: none;
+      padding-left: 0px;
+      padding-right: 0px;
+      width: 100%;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    .single_counter .counter_icon {
+      float: none;
+      width: auto;
+       margin-bottom: 10px;
+    }
+    .single_counter .icon_details {
+      float: none;
+      width: 100%;
+    }
+    .our_client {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+  
+    .client_logo {
+      float: left;
+      padding-left: 10px;
+      width: calc(50% - 10px);
+      margin-bottom: 20px;
+        padding-right: 0px;
+    }
+     .client_logo:first-child{
+        padding-left: 0px;
+    }
+    .single_services{
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+    .single_services .services_icon {
+      width: 12%;
+    }
+    .single_services .icon_details {
+      box-sizing: border-box;
+      float: right;
+      padding-left: 20px;
+      width: 88%;
+      text-align: left;
+    }
+    .testi_text {
+      width: 100%;
+    }   
+    .testi_text h3::before, .testi_text h3::after {
+      display: none;
+    }
+    .testi_text h3::after {
+     display: none;
+    }
+    .testi_text h3 {
+      font-size: 15px;
+    }
+    .single_slide {
+      float: none;
+      padding-left: 0px;
+      padding-right: 0px;
+      width: 100%;
+      margin-bottom: 40px;
+    }
+    .portfolio_menu ul li {
+      padding-bottom: 10px;
+      display: block;
+    }
+    .portfolio_item {
+      height: 214px;
+      width: 100%;
+    }
+    .portfolio_item:nth-child(odd) {
+     background: #39a38f none repeat scroll 0 0;
+    }
+    .portfolio_item:nth-child(even) {
+      background: #62c5b2  none repeat scroll 0 0;
+    }
+    .contact_form {
+      float: none;
+      width: 100%;
+        margin-bottom: 30px;
+    }
+    .contact_info {
+      float: none;
+      width: 100%;
+    }
+    .footer div{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .btop{
+        padding: 20px 0px;
+    }
+    .social_icon a {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .main_menu .social_icon, .menu{
+        display: none;
+    }
+    
+    .slicknav_menu{
+        display: block;
+    }
+    .logo{
+        display: none;
+    }
+    .slicknav_menu {
+      background: none;
+      padding: 0px;
+    }
+    .slicknav_nav, .slicknav_nav ul {
+      background: rgba(0, 0, 0, .5);
+        margin: 0px;
+    }
+    .slicknav_nav a:hover {
+      background: #ccc none repeat scroll 0 0;
+      color: #222;
+       border-radius: 0px;
+    }
+    .slicknav_nav ul li a{
+        margin: 0px;
+    }
+
+}
