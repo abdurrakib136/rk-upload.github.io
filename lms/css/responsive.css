@@ -1,0 +1,203 @@
+/*For Medium Device*/
+@media only screen and ( min-width : 991px ) and ( max-width: 1200px ) {
+    
+    .signup-area form input[type="email"] {
+      width: 66%;
+    }
+    .single-service-list > p {
+      font-size: 12px;
+    }
+}
+
+/*For Tablet Device*/
+@media only screen and (max-width: 990px) and (min-width: 768px) {
+
+    #my-menu {
+        border-top: 2px solid #ddd;
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    #my-menu ul li.active a, #my-menu ul li:hover a {
+        border-color: transparent;
+        color: #000;
+    }
+        html, body, .welcome-area, .welcome-area div {
+            height: auto;
+        }
+        .welcome-area {
+            height: 500px;
+        }
+        .welcome-area div {
+            height: 100%;
+        }
+  
+        .single-l-courses-img {
+            height: 300px;
+        }
+        .vedio-text {
+            margin-bottom: 30px;
+        }
+
+    .login-form-inner {
+      right: 0;
+      width: 100%;
+    }
+    .search-form {
+      right: 0;
+      top: 0;
+      width: 100%;
+    }
+    .register-info {
+      background: #00bfa5 none repeat scroll 0 0;
+      display: none;
+      left: -157px;
+      margin-top: 10px;
+      padding: 20px 0;
+      position: absolute;
+      width: 134%;
+      z-index: 999;
+    }
+
+}
+/*For Tablet Device*/
+@media only screen and (max-width: 767px) {
+
+    #my-menu {
+        border-top: 2px solid #ddd;
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    #my-menu ul li.active a, #my-menu ul li:hover a {
+        border-color: transparent;
+        color: #000;
+    }
+    html, body, .welcome-area, .welcome-area div {
+        height: auto;
+    }
+    .welcome-area {
+        height: 400px;
+    }
+    .welcome-area div {
+        height: 100%;
+    }
+  
+    .single-l-courses-img {
+        height: 250px;
+    }
+    .vedio-text {
+        margin-bottom: 30px;
+    }
+
+    .header-area a {
+        border: medium none;
+        font-size: 12px;
+        padding: 7px;
+    }
+    .header-area {
+        text-align: center;
+    }
+    .header-area .col-lg-6.col-sm-5.col-12.text-right.col-auto {
+        margin-top: 0px;
+        text-align: center !important;
+    }
+    .d-table h1 {
+        font-size: 33px;
+    }
+    .d-table-cell > p {
+        font-size: 16px;
+    }
+    .courses-icon {
+        float: none;
+        margin-bottom: 21px;
+        margin-right: 0;
+        text-align: center;
+    }
+    .single-courses-list {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .service-icon {
+        float: none;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    .single-l-corses-list h3 {
+        font-size: 23px;
+    }
+    .sec-padding {
+        padding: 60px 0;
+    }
+    .news-list-img {
+        height: 250px;
+    }
+    .signup-area .col-lg-6.text-right {
+        text-align: left !important;
+    }
+    .signup-area form input[type="email"] {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .signup-area form input[type="submit"] {
+        width: 50%;
+    }
+    .social-icon {
+        text-align: left;
+    }
+    .footer-border {
+        font-size: 14px;
+        text-align: center;
+    }
+    .footer-border .col-lg-7.col-sm-7.text-right {
+        margin-top: 10px;
+        text-align: center !important;
+        font-size: 14px;
+    }
+    .signup-area.sec-padding {
+        padding-bottom: 20px;
+    }
+    .address-list {
+        margin-top: 20px;
+    }
+
+    .single-courses-list {
+        text-align: center;
+    }
+    .courses-icon {
+        text-align: center;
+        width: 100%;
+    }
+    .courses-icon > img {
+        margin: auto;
+        text-align: center;
+    }
+    .single-service-list {
+        text-align: center;
+    }
+    .service-icon {
+        margin: 0 auto 20px;
+        text-align: center;
+    }
+    .login-form-inner {
+      right: 0;
+      width: 100%;
+    }
+    .search-form {
+      right: 0;
+      top: 0;
+      width: 100%;
+    }
+    .search-form input[type="submit"] {
+      margin-top: 10px;
+      width: 200px;
+    }
+    .search-form input[type="search"] {
+      width: 100%;
+    }
+    .seacrh-form-area form{
+        text-align: center;
+    }
+
+
+
+
+}
