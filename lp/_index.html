@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simply Moving</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=yes"/>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <link rel="icon" href="images/smpl/SimplyMovingIcon32.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/rd-mailform.css">
+    <link rel="stylesheet" href="css/material-design.css">
+    <link rel="stylesheet/less" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/google-map.css">
+	<link rel="stylesheet" href="css/smpl.css">
+    <!--[if lt IE 9]>
+    <html class="lt-ie9">
+    <div style=' clear: both; text-align:center; position: relative;'>
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+            <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+        </a>
+    </div>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <script src="js/jquery.js"></script>
+    <script src='js/device.min.js'></script>
+    <script type="text/javascript" src="js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</head>
+<body>
+<div class="page">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-59G9XS"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-59G9XS');</script>
+<!-- End Google Tag Manager -->
+    <header>
+        <section>
+            <div id="header">
+                <div class="container">
+                    <div class="brand">
+                           <a href="./"><img alt="Simply Moving" src="images/smpl/SimplyMovingLogo.png" />
+                               <!-- <span class="heading-1">Simply</span><br><span class="heading-6">Moving</span> -->
+                           </a>
+                        <span  class="brand-slogan heading-3">A reliable and cost effective NYC moving company</span>
+                    </div>
+                    <div class="booking_form row">
+                        <form class='rd-mailform' method="post" action="bat/rd-mailform.php">
+                            <input type="hidden" name="form-type" value="contact"/>
+                            <fieldset class="">
+                                <div class="col-md-12 col-lg-3">
+                                    <label data-add-placeholder data-add-icon>
+                                        <input type="text" name="name" placeholder="FULL NAME" data-constraints="@NotEmpty @LettersOnly"/>
+                                    </label>
+                                </div>
+                                <div class="col-md-12 col-lg-3">
+                                    <label data-add-placeholder data-add-icon>
+                                        <input type="text" name="email" placeholder="EMAIL" data-constraints="@NotEmpty @Email"/>
+                                    </label>
+                                </div>
+                                <div class="col-md-12 col-lg-3">
+                                    <label data-add-placeholder data-add-icon>
+                                        <input type="text" name="phone" placeholder="PHONE" data-constraints="@Phone"/>
+                                    </label>
+                                </div>
+                                <div class="col-md-12 col-lg-3">
+                                    <label data-add-placeholder data-add-icon>
+                                        <input type="Date" name="date" placeholder="DATE" data-constraints="@Date"/>
+                                    </label>
+                                </div>
+                                <div class="mfControls">
+                                    <button class="btn-primary btn-primary fa-sign-out" type="submit">Get a Quote</button>
+                                </div>
+                                <div class="mfInfo"></div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!--========================================================
+                              MAIN
+    =========================================================-->
+    <div class="main text-center">
+
+        <!--section1-->
+        <section class="well">
+            <div class="container">
+                <div class="row flow-offset-1">
+                    <div class="col-md-6 col-sm-6  col-lg-3" style="visibility: visible; animation-name: fadeInUp;">
+                        <div class="img_wrap"><img src="images/page01_img01.jpg" alt="">
+                            <!-- <div class="btn_wrap"><a href="#" class="btn"></a></div> -->
+                        </div>
+                        <div class="text_wrap">
+                            <h5>Moving</h5>
+                            <p>Our moving service surpasses those of our competitors that offer similar services at higher price.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-lg-3" style="visibility: visible; animation-name: fadeInUp;">
+                        <div class="img_wrap"><img src="images/page01_img02.jpg" alt="">
+                            <!-- <div class="btn_wrap"><a href="#" class="btn"></a></div> -->
+                        </div>
+                        <div class="text_wrap">
+                            <h5>Storage</h5>
+                            <p>Professional storage solutions are readily available: Secure, affordable, and accessible.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6  col-lg-3" style="visibility: visible; animation-name: fadeInUp;">
+                        <div class="img_wrap"><img src="images/page01_img03.jpg" alt="">
+                            <!-- <div class="btn_wrap"><a href="#" class="btn"></a></div> -->
+                        </div>
+                        <div class="text_wrap">
+                            <h5>Service</h5>
+                            <p>Reliable, friendly and experienced movers, plus a dedicated professional move manager.</p>
+                        </div>
+                    </div>
+                    <div class=" col-md-6 col-sm-6  col-lg-3" style="visibility: visible; animation-name: fadeInUp;">
+                        <div class="img_wrap"><img src="images/page01_img04.jpg" alt="">
+                            <!-- <div class="btn_wrap"><a href="#" class="btn"></a></div> -->
+                        </div>
+                        <div class="text_wrap">
+                            <h5>Happy Customers</h5>
+                            <p>Our <a href="https://www.trustpilot.com/review/simplymovingny.com" title="Simply Moving Reviews" target="_blank">reviews</a> speak for themselves. Rest assured your move will be an exceptional experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END section1-->
+
+        <!--section2-->
+        <section class="well well_2 index text-md-left">
+            <div class="container">
+                <ul class="row index_list">
+                    <li class="col-md-6 col-sm-12 col-xs-12 wow fadeInRight animated"
+                        style="visibility: visible; animation-name: fadeInRight;">
+                        <h4>Efficiency</h4>
+                        <h6>Get Things Done</h6>
+                        <p>We are committed to providing the highest possible quality of service and deliver the efficiency and prompt service that you need so that you don’t miss a beat and can jump back into your daily routine as quickly as possible.</p>
+                        <div class="btn_wrap"><a href="#" class="btn"></a></div>
+                    </li>
+                    <li class="col-md-5 col-sm-12 col-xs-12 wow fadeInRight animated"
+                        style="visibility: visible; animation-name: fadeInRight;">
+                        <h4>Quality</h4>
+                        <h6>What Makes You Happy</h6>
+                        <p>We never compromises on quality — ever — and neither should you. We strive to make the entire moving process as customized, well supported and stress-free as possible. This level of comprehensive client care is unprecedented in the industry.</p>
+                        <div class="btn_wrap"><a href="#" class="btn"></a></div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--END section2-->
+
+        <!--section3-->
+        <section class="well_3">
+            <div class="container">
+                <div class="row">
+                    <div class="primary">
+                        <h3>Main Services</h3>
+                        <h6>Smooth Moving Services You Will Love<br/>Lets Get Moving Together</h6>
+
+                        <div class="text-md-left  col-md-6 col-sm-6 col-xs-12 wow fadeInLeft animated"
+                             style="visibility: visible; animation-name: fadeInUp;">
+                            <article>
+                                <div class="thumbnail">
+                                    <img src="images/page01_img06.jpg" alt="#">
+
+                                    <div class="caption">
+                                        <h4><a href="#">Local Moving</a></h4>
+                                        <h6>We have a full range of localized relocation packages to take care of even the minor details if you are moving within a 100 mile radius.</h6>
+                                    </div>
+                                </div>
+                                <div class="btn_wrap"><a href="#" class="btn"></a></div>
+                            </article>
+                        </div>
+                        <div class="text-md-left col-md-6 col-sm-6 col-xs-12 wow fadeInLeft animated"
+                             style="visibility: visible; animation-name: fadeInUp;">
+                            <article>
+                                <div class="thumbnail">
+                                    <img src="images/page01_img07.jpg" alt="#">
+
+                                    <div class="caption">
+                                        <h4><a href="#">Long Distance</a></h4>
+                                        <h6>Long distance relocation (100+ miles) demands extensive planning. We offer total professionalism and will meet your tight schedule.</h6>
+                                    </div>
+                                </div>
+                                <div class="btn_wrap"><a href="#" class="btn"></a></div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <div class="map">
+            <div id="google-map" class="map_model"></div>
+            <ul class="map_locations">
+                <li data-x="-73.911811" data-y="40.822525">
+                    <p>837 Washington Ave 7H, Bronx, NY 10451<br /><span>(718) 585-4142</span></p>
+                </li>
+            </ul>
+        </div>
+        <section class="well_1 bg-primary">
+            <div class="container text-center text-md-left">
+                <div class="row">
+                    <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12 wow fadeInLeft animated" data-wow-delay="0.2s"
+                         style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                        <div class="box">
+                            <div class="box_aside">
+                                <span class="fa-phone-square"> </span>
+                            </div>
+                            <div class="box_cnt__no_flow">
+                                <h4>Quick Call<br/>We Will Call You</h4>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
+                        <div class="subscribe">
+                            <form class="rd-mailform mailform" method="post" action="bat/rd-mailform.php">
+                                <input type="hidden" name="form-type" value="subscribe"/>
+                                <fieldset>
+                                    <label data-add-placeholder><input type="text" name="phone" placeholder="Your phone number" data-constraints="@Phone"/></label>
+                                    <div class="mfControls"><button class="btn-primary" type="submit">Start</button></div>
+                                    <div class="mfInfo"></div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div id="footer">
+            <div class="container">
+                <div class="brand text-center">
+                    <a href="./"><img alt="Simply Moving" src="images/smpl/SimplyMovingLogo.png" />
+						<!-- <span class="heading-1">Express</span><br><span class="heading-6">DELIVERY SERVICE</span> -->
+                    </a>
+                </div>
+                <div class="copyright">
+                    &#169;<span id="copyright-year">2016</span>
+                    |
+                    All Rights Reserved
+                    <!-- {%FOOTER_LINK} -->
+                </div>
+                <ul class="inline-list">
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-facebook"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>

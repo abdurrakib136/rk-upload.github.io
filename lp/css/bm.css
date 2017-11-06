@@ -1,0 +1,211 @@
+
+header {
+  background: url("../images/bm/blue-moving-trucks-1b.jpg") no-repeat;
+  width: 100%;
+  background-size: cover;
+  padding-top: 14.2vh;
+  padding-bottom: 25vh;
+  position: relative;
+}
+
+h5 {
+  font-size: 25px;
+  line-height: 25px;
+  padding: 35px 0 12px 0;
+  color: #16488d;
+}
+
+.btn {
+  font-size: 30px;
+  line-height: 30px;
+  color: #fff;
+  background: #16488d;
+  display: inline-block;
+  min-width: 104px;
+  text-align: center;
+  padding: 23px 5px 10px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.btn:after {
+  content: '';
+  position: absolute;
+  bottom: -22px;
+  left: -14px;
+  width: 152px;
+  background: #16488d;
+  -ms-transform: translate(0%, 0%) rotate(29deg) skewX(-28deg) skewY(5deg);
+  -webkit-transform: translate(0%, 0%) rotate(29deg) skewX(-28deg) skewY(5deg);
+  transform: translate(0%, 0%) rotate(29deg) skewX(-28deg) skewY(5deg);
+  height: 150px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.box .box_aside .fa-envelope-o {
+  color: #16488d;
+  font-size: 114px;
+  line-height: 89px;
+  position: relative;
+}
+
+.sf-menu > li.active > a {
+  color: #212121;
+  background: #16488d;
+}
+
+.sf-menu ul > li.sfHover > a, .sf-menu ul > li > a:hover {
+  color: #FFF;
+  background: #16488d;
+}
+
+.sf-menu ul ul > li.sfHover > a, .sf-menu ul ul > li > a:hover {
+  color: #FFF;
+  background: #16488d;
+}
+
+.rd-mobilemenu_ul a:hover {
+  background: #16488d;
+  color: #FFF;
+}
+
+.toTop:hover {
+  color: #fff;
+  background: #16488d;
+  text-decoration: none;
+}
+
+header #header .btn-primary {
+  display: inline-block;
+  position: relative;
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: 500;
+  background: #16488d;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  padding: 41px 33px 43px 37px;
+  letter-spacing: -0.5px;
+  margin-left: -100px;
+}
+
+header #header .btn-primary:hover:before {
+  right: -75px;
+  padding: 34px 2px 34px 46px;
+  background: #16488d;
+}
+
+header #header .btn-primary:hover:after {
+  right: -110px;
+  border-color: transparent transparent transparent #16488d;
+}
+
+.main .index .index_list li h4 {
+  font-weight: 300;
+  color: #16488d;
+  padding: 41px 0 35px 0;
+}
+
+.main .primary h3 {
+  color: #16488d;
+  font-weight: 300;
+}
+
+.main .primary .thumbnail .caption h6 {
+  color: #16488d;
+  text-align: left;
+  padding-bottom: 0;
+}
+
+.main .primary .thumbnail .caption h4 a:hover {
+  color: #16488d;
+}
+
+.main .subscribe .btn-primary {
+  display: inline-block;
+  position: relative;
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: 600;
+  background: #16488d;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  padding: 41px 25px 43px 27px;
+  letter-spacing: -0.5px;
+  margin-left: -5px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.main .subscribe .btn-primary:after {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 52px 0 52px 36px;
+  border-color: transparent transparent transparent #16488d;
+  content: '';
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 100%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  pointer-events: none;
+}
+
+footer #footer .inline-list li .fa:hover {
+  background: #16488d;
+}
+
+
+footer {
+  background: url("../images/bm/blue-moving-truck-1b.jpg") no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+
+
+.box .box_aside .fa-phone-square {
+  color: #16488d;
+  font-size: 114px;
+  line-height: 89px;
+  position: relative;
+}
+
+.box .box_aside .fa-phone-square:before {
+  content: "\f098";
+  font-weight: 400;
+  font-family: "FontAwesome";
+}
+
+.box .box_aside .fa-phone-square {
+    font-size: 80px;
+}
+  
+.main .index .index_list li:before {
+  //*
+  content: counter(li,upper-alpha);
+  counter-increment: li;
+  font-size: 100px;
+  line-height: 66px;
+  font-weight: 300;
+  font-family: "Open Sans", sans-serif;
+  */
+}  
+
+
+
+
+
+
+
+
