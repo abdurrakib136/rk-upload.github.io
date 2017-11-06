@@ -1,0 +1,202 @@
+
+header {
+  background: url("../images/smpl/trucks_2560x1133.jpg") no-repeat;
+  width: 100%;
+  background-size: cover;
+  padding-top: 14.2vh;
+  padding-bottom: 25vh;
+  position: relative;
+}
+
+h5 {
+  font-size: 25px;
+  line-height: 25px;
+  padding: 35px 0 12px 0;
+  color: #ff0000;
+}
+
+.btn {
+  font-size: 30px;
+  line-height: 30px;
+  color: #fff;
+  background: #ff0000;
+  display: inline-block;
+  min-width: 104px;
+  text-align: center;
+  padding: 23px 5px 10px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.btn:after {
+  content: '';
+  position: absolute;
+  bottom: -22px;
+  left: -14px;
+  width: 152px;
+  background: #ff0000;
+  -ms-transform: translate(0%, 0%) rotate(29deg) skewX(-28deg) skewY(5deg);
+  -webkit-transform: translate(0%, 0%) rotate(29deg) skewX(-28deg) skewY(5deg);
+  transform: translate(0%, 0%) rotate(29deg) skewX(-28deg) skewY(5deg);
+  height: 150px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.box .box_aside .fa-envelope-o {
+  color: #ff0000;
+  font-size: 114px;
+  line-height: 89px;
+  position: relative;
+}
+
+.sf-menu > li.active > a {
+  color: #212121;
+  background: #ff0000;
+}
+
+.sf-menu ul > li.sfHover > a, .sf-menu ul > li > a:hover {
+  color: #FFF;
+  background: #ff0000;
+}
+
+.sf-menu ul ul > li.sfHover > a, .sf-menu ul ul > li > a:hover {
+  color: #FFF;
+  background: #ff0000;
+}
+
+.rd-mobilemenu_ul a:hover {
+  background: #ff0000;
+  color: #FFF;
+}
+
+.toTop:hover {
+  color: #fff;
+  background: #ff0000;
+  text-decoration: none;
+}
+
+header #header .btn-primary {
+  display: inline-block;
+  position: relative;
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: 500;
+  background: #ff0000;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  padding: 41px 33px 43px 37px;
+  letter-spacing: -0.5px;
+  margin-left: -100px;
+}
+
+header #header .btn-primary:hover:before {
+  right: -75px;
+  padding: 34px 2px 34px 46px;
+  background: #ff0000;
+}
+
+header #header .btn-primary:hover:after {
+  right: -110px;
+  border-color: transparent transparent transparent #ff0000;
+}
+
+.main .index .index_list li h4 {
+  font-weight: 300;
+  color: #ff0000;
+  padding: 41px 0 35px 0;
+}
+
+.main .primary h3 {
+  color: #ff0000;
+  font-weight: 300;
+}
+
+.main .primary .thumbnail .caption h6 {
+  color: #ff0000;
+  text-align: left;
+  padding-bottom: 0;
+}
+
+.main .primary .thumbnail .caption h4 a:hover {
+  color: #ff0000;
+}
+
+.main .subscribe .btn-primary {
+  display: inline-block;
+  position: relative;
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: 600;
+  background: #ff0000;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  padding: 41px 25px 43px 27px;
+  letter-spacing: -0.5px;
+  margin-left: -5px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.main .subscribe .btn-primary:after {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 52px 0 52px 36px;
+  border-color: transparent transparent transparent #ff0000;
+  content: '';
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 100%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  pointer-events: none;
+}
+
+footer #footer .inline-list li .fa:hover {
+  background: #ff0000;
+}
+
+
+footer {
+  background: url("../images/smpl/truck_2050x736.jpg") no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+
+
+.box .box_aside .fa-phone-square {
+  color: #ff0000;
+  font-size: 114px;
+  line-height: 89px;
+  position: relative;
+}
+
+.box .box_aside .fa-phone-square:before {
+  content: "\f098";
+  font-weight: 400;
+  font-family: "FontAwesome";
+}
+
+.box .box_aside .fa-phone-square {
+    font-size: 80px;
+}
+  
+  
+
+
+
+
+
+
+
+
