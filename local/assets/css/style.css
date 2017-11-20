@@ -1,0 +1,94 @@
+/* Base CSS */
+
+body {
+    color: #16171a;
+    font-family: arial;
+    font-size: 16px;
+    line-height: 22px;
+    overflow-x: hidden;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.menu-area {
+    background-color: #e6e6e6;
+    padding: 10px 0px;
+}
+.menu a {
+    color: #16171a;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-right: 25px;
+    display: inline-block;
+    font-size: 14px;
+}
+.menu-toggle-icon a.search {
+    font-weight: 400;
+}
+
+.menu-toggle {
+    background-color: #fff;
+    box-shadow: 0px 2px 8px #ddd;
+    opacity: 0;
+    visibility: hidden;
+    transition: .7s;
+}
+.menu-toggle.active {
+    opacity: 1;
+    visibility: visible
+}
+.menu-toggle ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.menu-toggle ul li {
+    display: inline-block;
+}
+.menu-toggle ul li a {
+    color: #919191;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 8px 17px;
+}
+.menu-toggle ul li:first-child a {
+    padding-left: 0;
+}
+.menu-toggle ul li a img {
+    padding-right: 3px;
+}
+
+.logo {
+    position: absolute;
+    right: 15px;
+    top: 0px;
+    z-index: 99
+}
+.logo img {
+    height: 92px;
+    width: 80px;
+}
+
+.menu-toggle ul li a img[alt="symbol1"] {
+    width: 20px;
+}
+.menu-toggle ul li a img[alt="symbol2"] {
+    width: 27px;
+}
