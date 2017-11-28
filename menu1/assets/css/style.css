@@ -1,0 +1,125 @@
+/* Base CSS */
+
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333;
+}
+a:hover { text-decoration: none }
+a{
+    transition: .3s;
+}
+
+.menu-area-wrapper {
+  background: rgba(0, 0, 0, .9);
+}
+.main-menu ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+.main-menu ul li {
+  display: inline-block;
+  position: relative;
+        transition: .4s;
+}
+.main-menu ul li a {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 15px;
+}
+.main-menu ul li a i{
+    padding-left: 4px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.logo a {
+  display: block;
+}
+.menu-area-wrapper {
+  padding: 20px 0px;
+}
+.logo img {
+  max-width: 190px;
+}
+.logo {
+  padding-top: 10px;
+}
+
+
+.main-menu ul li .submenu {
+  position: absolute;
+  left: -100px;
+  top: 140%;
+  width: 250px;
+  background: #fff;
+  color: #fff;
+  z-index: 99;
+  text-align: left;
+  margin: 0px;
+  padding: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+.main-menu ul li .submenu li {
+  display: block;
+}
+.main-menu ul li .submenu li a {
+  color: #999 !important;
+  text-align: left;
+    font-weight: 400;
+    padding: 5px 0px;
+    text-transform: capitalize;
+    transition: .3s;
+}
+.main-menu ul li:hover .submenu{
+    opacity: 1;
+    visibility: visible;
+    top: 120%;
+}
+
+.main-menu ul > li:after,
+.main-menu ul > li.active:after {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 0px;
+  height: 2px;
+  background: #2e8ece;
+  content: "";
+  transition: .3s;
+}
+.main-menu ul > li:hover:after,
+.main-menu ul > li.active:after {
+  width: 100%;
+}
+.main-menu ul li:hover .submenu li:after{
+    display: none
+        
+}
+.main-menu ul li ul.submenu li:hover a{
+    color: #000 !important;
+}
+.slicknav_menu{
+    display: none;
+}

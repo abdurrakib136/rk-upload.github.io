@@ -1,0 +1,55 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .main-menu ul li a {
+	display: block;
+	font-size: 13px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 10px 10px;
+}
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+     .slicknav_menu{
+        display: block;
+    }
+    .main-menu{
+        display: none;
+    }
+    .slicknav_menu {
+	position: absolute;
+	right: 0px;
+	top: 15px;
+	background: none;
+    z-index: 999;
+        width: 100%;
+}
+    
+.slicknav_nav {
+  width: 100%;
+    padding-top: 20px;
+	background: #000;
+    margin-top: 4px;
+}
+    .slicknav_nav a {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 12px;
+}
+    .slicknav_nav a i{
+        display: none;
+    }
+    .logo img {
+  max-width: 150px;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
