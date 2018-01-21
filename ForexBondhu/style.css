@@ -1,0 +1,233 @@
+*{
+    font-family: Verdana, SolaimanLipi;
+	padding: 0;
+	margin: 0;
+	
+}
+body{
+	overflow-y: scroll;
+    font-size: 16px;
+    line-height: 18px;
+}
+/*
+
+@font-face {font-family:"SolaimanLipi";
+src:url("font/SolaimanLipi_29-05-06.eot?") format("eot"),
+url("font/SolaimanLipi_29-05-06.woff") format("woff"),
+url("font/SolaimanLipi_29-05-06.ttf") format("truetype"),
+url("font/SolaimanLipi_29-05-06.svg#SolaimanLipi") format("svg");
+font-weight:normal;
+font-style:normal;}
+*/
+
+p{
+	font-size: 16px;
+    line-height: 22px;
+	font-family: Verdana, SolaimanLipi;
+}
+h1, h2, h3, h4, h5, h6{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+h1{
+	font-size: 50px;
+	font-family: Verdana, SolaimanLipi;
+	text-decoration:bold;
+	text-align: center;
+	text-shadow: 1.5px 1.5px blue; 
+}
+h2{
+	font-size: 30px;
+	font-family: Verdana, SolaimanLipi;
+	text-decoration:bold;
+	text-align: left;
+    margin-bottom: 15px;
+}
+
+a:link {
+    color: white; 
+    background-color: green; 
+    text-decoration: none;
+	padding: 14px 25px;
+    text-align: center;
+}
+
+a:visited {
+    color: black;
+    background-color: green;
+    text-decoration: none;
+	padding: 14px 25px;
+    text-align: center;
+}
+
+a:hover {
+    color: red;
+    background-color: yellow;
+    text-decoration: underline;
+	padding: 14px 25px;
+    text-align: center;
+}
+
+a:active {
+    color: white;
+    background-color: green;
+    text-decoration: underline;
+	padding: 14px 25px;
+    text-align: center;
+}
+a.noformat:link {
+    color: black; 
+    background-color: 0; 
+    text-decoration: 0;
+	padding: 0;
+    text-align: 0;
+}
+
+a.noformat:visited {
+    color: black;
+    background-color: 0;
+    text-decoration: 0;
+	padding: 0;
+    text-align: 0;
+}
+
+a.noformat:hover {
+    color: red;
+    background-color: yellow;
+    text-decoration: underline;
+	padding:0;
+    text-align: 0;
+}
+
+a.noformat:active {
+    color: black;
+    background-color:0;
+    text-decoration: 0;
+	padding:0;
+    text-align:0;
+}
+.fixedheader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+	height:100px;
+    border: 3px solid #73AD21; background: linear-gradient(red, yellow);
+	font-family: Verdana, SolaimanLipi;
+	color:green;
+	
+}
+.fixedfooter {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+	left: 25%;
+    border: 2px solid #ffffff; background-color: gray;
+	font-family: Verdana, SolaimanLipi;
+	font-size: 120%;
+	color: black;
+	text-align: right; 
+	
+	
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin-top:90px;
+	margin-left:-10px;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table.t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table.t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table.t01 th {
+    background-color: black;
+    color: white;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+
+
