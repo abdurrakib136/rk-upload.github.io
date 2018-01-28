@@ -1,0 +1,2 @@
+$(document).ready(function(){if($('body').hasClass('page-template-sample-page')){if(window.location.hash){var selected=window.location.hash.replace('#','');var selectedElem=$('[data-tab="'+ selected+'"]');selectedElem.click();$('html, body').animate({scrollTop:selectedElem.parent().offset().top- 100},300);}
+$('.filter_img_container .nav-tabs li a').click(function(){location=$(this).attr('href');});}});
