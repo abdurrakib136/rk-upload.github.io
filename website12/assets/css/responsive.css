@@ -1,0 +1,202 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .single-block p {
+        width: 100%;
+    }
+    .invest-left-text {
+        margin-top: 80px;
+    }
+    .block-two .single-block p {
+        width: 100%;
+    }
+    .footer-inner p {
+        font-size: 13px;
+    }
+    .footer-copyright {
+        padding: 18px 0px;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .menu-area .navbar-nav > li > a {
+        padding: 15px 12px;
+        font-size: 15px
+    }
+    .menu-area .navbar-nav > li.signup {
+        margin-left: 20px;
+    }
+    .welcome-slider-area .owl-dots {
+        position: absolute;
+        top: auto;
+        left: 50%;
+        bottom: 20px;
+        z-index: 999;
+        cursor: pointer;
+        height: auto !important;
+        margin-left: -50px;
+    }
+    .welcome-slider-area .owl-dots div {
+        width: 10px;
+        height: 10px;
+        background: #96C247;
+        display: inline-block;
+        margin: 0px 10px;
+        border-radius: 50px;
+        cursor: pointer !important;
+    }
+    .single-block {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .block-area.section-padding {
+        padding: 70px 0px;
+    }
+    .invest-left-text {
+        margin-top: 0px;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    .footer-one {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .footer-inner p {
+        max-width: 416px;
+        margin: 15px auto 3px;
+    }
+
+
+}
+
+
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+
+
+    .navbar-toggle {
+        margin-top: 25px;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #96C247;
+        background-color: #96C247;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+        background-color: #96C247;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: #96C247;
+        margin-top: 10px;
+        background-color: rgba(0, 0, 0, .9);
+    }
+    .menu-area .navbar-nav > li.signup::after {
+        display: none;
+    }
+    .menu-area .navbar-nav > li.signup {
+        margin-left: 0px;
+    }
+    .menu-area .navbar-nav > li.signup,
+    .menu-area .navbar-nav > li.login {
+        background-color: transparent;
+        padding: 0px;
+    }
+    .menu-area {
+        position: inherit;
+        margin-bottom: 11px;
+    }
+    .service-slide-text-cell h1 {
+        font-size: 24px;
+        font-weight: 600;
+        color: #fff;
+        line-height: 38px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .welcome-slider-area {
+        height: 470px;
+    }
+    .service-slide-text-cell p {
+        font-size: 14px;
+        margin-bottom: 13px;
+        margin-top: 0px;
+    }
+    .slider-form input {
+        width: 80%;
+        margin: 10px 0px;
+    }
+    .welcome-slider-area .owl-dots {
+        position: absolute;
+        top: auto;
+        left: 50%;
+        bottom: 20px;
+        z-index: 999;
+        cursor: pointer;
+        height: auto !important;
+        margin-left: -50px;
+    }
+    .welcome-slider-area .owl-dots div {
+        width: 10px;
+        height: 10px;
+        background: #96C247;
+        display: inline-block;
+        margin: 0px 10px;
+        border-radius: 50px;
+        cursor: pointer !important;
+    }
+
+    .btn {
+        font-size: 13px;
+        margin-top: 23px;
+        padding: 10px 18px;
+        margin-left: 5px;
+        width: 135px;
+    }
+    .single-block {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .block-area.section-padding {
+        padding: 70px 0px;
+    }
+    .invest-left-text {
+        margin-top: 0px;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    .cta-inner h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .footer-one {
+        margin-bottom: 30px;
+    }
+    .footer-two {
+        margin-bottom: 30px;
+    }
+    .footer-two.mobile-padding {
+        margin-bottom: 0px;
+    }
+    .footer-copyright {
+        padding: 10px 0px;
+    }
+    #scroll-top {
+        bottom: 50px;
+    }
+
+    /* Wide Mobile Layout: 480px. */
+    @media only screen and (min-width: 480px) and (max-width: 767px) {}
