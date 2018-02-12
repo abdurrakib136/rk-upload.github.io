@@ -8,5 +8,5 @@ $recipient = "abdurrakib528@gmail.com";
 $subject = "Add Your Subject Here";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-header("location: thank-you.html")
+header("location:index.html")
 ?>
