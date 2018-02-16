@@ -1,0 +1,552 @@
+html,
+body {
+    height: auto !important;
+}
+
+body {
+    background-color: #F9F9F9
+}
+
+.menu-area.tranding {
+    position: inherit;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, .15);
+    background: #fff
+}
+
+.menu-area.tranding nav {
+    text-align: center;
+    width: 43%;
+    margin: auto;
+}
+
+.menu-area.tranding ul li {
+    transition: .3s;
+    border: 2px solid transparent
+}
+
+.menu-area.tranding ul li a {
+    color: #333;
+}
+
+.menu-area.tranding ul li.active {
+    border-bottom: 2px solid #96C247;
+}
+
+.tranding-blance h5 {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+    padding-right: 0px;
+    margin: 10px 0px 0px;
+    float: left;
+}
+
+.header-top-area {
+    background-color: #072738;
+    padding: 10px 0px;
+    color: #fff
+}
+
+.tranding-blance .currency {
+    display: block;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    float: left;
+    padding-left: 20px;
+
+}
+
+.tranding-blance p {
+    margin: 0px;
+    line-height: 22px;
+    margin-right: 0px
+}
+
+.tranding-blance p span {
+    padding-left: 20px;
+    float: right
+}
+
+.icon {
+    font-size: 30px;
+    margin: 7px 0px 0px;
+    cursor: pointer;
+}
+
+.menu-area.tranding nav ul {
+    padding-top: 0px !important;
+}
+
+.currency-left h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.currency-rate {
+    padding: 40px 0px 0px;
+}
+
+.currency-rate ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.currency-rate ul li {
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.currency-rate ul li a {
+    display: block;
+    padding: 0px 50px;
+}
+
+span.red {
+    color: #FF3E49;
+}
+
+span.green {
+    color: #97C248;
+}
+
+
+.currency-nav {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.currency-nav li {
+    display: inline-block;
+    padding: 6px 20px;
+    background: #EAEAEA;
+    border-radius: 3px;
+    margin: 0px 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer
+}
+
+.currency-nav li.active {
+    background: #97C248;
+    color: #fff;
+}
+
+.currency-week {
+    padding-top: 20px;
+    padding-bottom: 52px;
+    background: #F9F9F9;
+}
+
+.currency-box-area {
+    padding: 10px 0px 40px;
+}
+
+.currency-box {
+    background: #fff;
+    padding: 20px 25px 15px;
+    box-shadow: 0px 0px 17px #ddd;
+    border-radius: 3px;
+}
+
+.currency-box h2 {
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    position: relative;
+    padding-left: 45px
+}
+
+.currency-box.buy h2 {
+    color: #97c248
+}
+
+.currency-box.sell h2 {
+    color: #FF3E49
+}
+
+.currency-box h2 span {
+    float: right;
+    font-weight: 400;
+    color: #97c248
+}
+
+.currency-box h2:after {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #333;
+    content: '+';
+    line-height: 36px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.sell.currency-box h2:after {
+    content: '-';
+    line-height: 33px;
+}
+
+.currency-box.buy h2:after {
+    color: #97c248;
+    border-color: #97c248
+}
+
+.currency-box.sell h2:after {
+    color: #FF3E49;
+    border-color: #FF3E49
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.currency-box h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.currency-box h3 span {
+    float: right;
+}
+
+.currency-box h4 {
+    font-size: 23px;
+    text-transform: capitalize;
+    float: left;
+    margin-top: 6px;
+    font-weight: 600;
+}
+
+.currency-box h5 {
+    float: right;
+    border: 1px solid #3333;
+    width: 55%;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.single-box {
+    overflow: hidden;
+}
+
+.currency-box h5 input {
+    border: none;
+    padding: 10px 20px;
+}
+
+.currency-box h5 span {
+    padding: 10px 20px;
+    float: right;
+}
+
+.single-box h5 input[type="submit"] {
+    border: none;
+    background: #96C247;
+    width: 100%;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+    transition: .3s;
+}
+
+.sell .single-box h5 input[type="submit"] {
+    border: none;
+    background: #FF3E49;
+}
+
+.single-box h5 input[type="submit"]:hover {
+    background: #333;
+    color: #fff
+}
+
+.red {
+    color: #FF3E49 !important;
+}
+
+.black {
+    color: #333
+}
+
+.currency-table {
+    padding: 10px 0px 40px;
+    background: #fff;
+    box-shadow: 0px 0px 10px #ddd;
+    border-radius: 3px;
+    padding: 20px 0px;
+}
+
+.currency-table table tr td {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.currency-table h2 {
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #96C247;
+    padding: 20px 0px;
+}
+
+.currency-table .thead-light {
+    background: #E8EDF1;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+
+.currency-table th {
+    border: none;
+}
+
+.green {
+    color: #97C248
+}
+
+.currency-table .thead-light th {
+    padding: 0px 10px;
+    border: none;
+    font-size: 21px;
+    padding: 5px 20px;
+}
+
+.currency-table-area {
+    padding: 10px 0px 40px;
+}
+
+.icon-image img {
+    max-width: 20px;
+    margin-right: 8px;
+}
+
+.icon-image {
+    font-size: 13px;
+    color: #96C247;
+    margin-top: 5px;
+}
+
+
+
+.currency-table-area.wallet {
+    margin-top: 50px;
+}
+
+.currency-table-area.wallet .currency-table {
+    padding: 0px 0px 3px;
+}
+
+.currency-table-area.wallet .currency-table th input {
+    border: 1px solid #ddd;
+    width: 45%;
+    height: 23px;
+    border-radius: 3px;
+    float: left;
+    font-size: 12px;
+    padding: 0px 6px;
+}
+
+.currency-table-area.wallet .currency-table th p {
+    font-size: 14px;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 400;
+    width: 51%;
+    float: right;
+    margin: 0px;
+}
+
+.currency-table-area.wallet .currency-table th {
+    font-size: 17px;
+    text-transform: capitalize;
+    padding: 15px;
+}
+
+.currency-table-area.wallet .currency-table table tr {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.currency-table-area.wallet .currency-table table tr a {
+    color: #97C248;
+    font-size: 11px;
+    font-weight: 400;
+    padding-left: 4px;
+    display: inline-block;
+    text-transform: none
+}
+
+.currency-table-area.wallet .currency-table table tr img {
+    max-width: 19px;
+}
+
+.currency-table-area.wallet .currency-table table tr i {
+    font-size: 20px;
+}
+
+.currency-table-area.wallet .currency-table table tr td {
+    padding: 16px;
+    border-bottom: none;
+}
+
+.currency-table-area.wallet .currency-table table tr.last-item {
+    padding-bottom: 60px !important;
+}
+
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+    border: none;
+}
+
+.table-heading h2 {
+    text-transform: uppercase;
+    text-align: center
+}
+
+.select-table {
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #fafafa url("../img/icon/icon-select.png") no-repeat 90% 50%;
+    margin: 30px 0px 50px;
+}
+
+.select-table select {
+    padding: 10px 8px;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+.select-table select:focus {
+    outline: none;
+}
+
+
+.currency-table-area.wallet .currency-table .thead-light th {
+    font-size: 13px;
+    text-transform: uppercase;
+    padding-right: 0px;
+    margin: 0px;
+}
+
+.currency-table-area.wallet .currency-table .thead-light th i {
+    font-size: 16px;
+    margin-left: 13px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.currency-table-area.wallet .currency-table .thead-light th i.active {
+    background: #ddd;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    line-height: 25px;
+}
+
+.currency-table-area.wallet .currency-table table tr td {
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 7px 20px;
+}
+
+.padding-row td {
+    padding-top: 22px !important;
+}
+
+.table-left.currency-table.trading .thead-light th,
+.currency-table.trading table tr td {
+    text-align: center;
+}
+
+.currency-table table tr td {
+    padding: 4px 0px;
+}
+
+.wallet .modal-dialog p {
+  font-size: 16px;
+  text-align: center;
+}
+.wallet .modal-dialog {
+  text-align: center;
+}
+.wallet .modal-dialog h4 {
+  text-align: left;
+  margin-top: 30px;
+}
+.wallet .modal-dialog form input {
+  color: #000;
+  font-size: 15px;
+}
+.wallet .modal-dialog .login-help p {
+  font-weight: 600;
+  text-align: left;
+}
+.wallet .modal-dialog .loginmodal-container {
+  max-width: 600px;
+}
+.wallet .modal-dialog .button {
+  text-align: right;
+}
+.wallet .modal-dialog .button button {
+  color: #fff;
+  border: none;
+  background: #97C248;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 10px 35px;
+  margin-left: 13px;
+  border-radius: 4px;
+  margin-top: 36px;
+}
+.wallet .modal-dialog .button button.color-btn {
+  background: #9BA9B1;
+}
+
+.single-input label {
+  font-size: 20px;
+}
+.single-input {
+  width: 70%;
+  margin: 0 auto;
+}
+#withdraw button {
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  background: #97C248;
+  padding: 9px 30px;
+  border-radius: 4px;
+  margin-top: 15px;
+}
