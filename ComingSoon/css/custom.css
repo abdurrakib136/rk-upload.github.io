@@ -1,0 +1,45 @@
+.under-construction .section-uc-1 {
+    padding-top: 10px;
+    background-color: #fff;
+}
+.column_column ol, .column_column ul, .the_content_wrapper ol, .the_content_wrapper ul {
+    color: #008000;
+}
+.fancy_heading_icon .icon_top, .fancy_heading_line .title, .format-link .post-title .icon-link, .opening_hours .opening_hours_wrapper li span, .pager-single a:hover, .pager-single > span, .shop_slider .shop_slider_ul li .item_wrapper .price, .themecolor, .widget_archive ul, .widget_meta ul, .widget_mfn_recent_comments ul li:after, .widget_nav_menu ul, .widget_pages ul, .widget_price_filter .price_label .from, .widget_price_filter .price_label .to, .widget_recent_comments ul li:after, .widget_rss ul, .woocommerce .product div.entry-summary .price, .woocommerce .star-rating span, .woocommerce ul.product_list_widget li .quantity .amount, .woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price {
+    color: #008000;
+}
+.under-construction .section-uc-2 {
+    padding-top: 180px;
+    background-color: #f5f5f5;
+    background: url(../images/Background_Pic.jpg) repeat center;
+    
+}
+.column, .columns {
+    float: left;
+    margin: 0 1% 40px;
+	
+}
+#Paddling_less{
+    float: left;
+    margin: 0 1% 0px;
+	
+}
+.fancy_heading .title {
+    font-size: 44px;
+    line-height: 45px;
+}
+.feature_list ul li a, .flat_box a, .flat_box a:hover, .icon_box a .desc, .icon_box a:hover .desc, .list_item a, .list_item a:hover, .widget_recent_entries ul li a, body, ul.timeline_items {
+    color: #2275ac;
+}
+#myTitle{
+	font-size: 30px;
+    line-height: 50px;
+	
+}
+.fancy_heading_icon .icon_top {
+    font-size: 100px;
+    line-height: 50px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    display: block;
+}
